@@ -1,5 +1,5 @@
 {
-    "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/Ports/1",
+    "@odata.id": "/redfish/v1/Systems/2/FabricAdapters/1/Ports/1",
     "@odata.type": "#Port.v1_4_0.Port",
     "Id": "1",
     "Name": "Fabric Adapter Port 1",
@@ -24,7 +24,7 @@
     },
     "Actions": {
         "#Port.Reset": {
-            "target": "/redfish/v1/Systems/1/FabricAdapters/1/Ports/1/Action/Port.Reset",
+            "target": "/redfish/v1/Systems/2/FabricAdapters/1/Ports/1/Action/Port.Reset",
             "ResetType@Redfish.AllowableValues": [
                 "ForceRestart"
             ]
@@ -32,17 +32,17 @@
     },
     "GenZ": {
         "LPRT": {
-            "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/Ports/1/LPRT"
+            "@odata.id": "/redfish/v1/Systems/2/FabricAdapters/1/Ports/1/LPRT"
         },
         "MPRT": {
-            "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/Ports/1/MPRT"
+            "@odata.id": "/redfish/v1/Systems/2/FabricAdapters/1/Ports/1/MPRT"
         },
         "VCAT": {
-            "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/Ports/1/VCAT"
+            "@odata.id": "/redfish/v1/Systems/2/FabricAdapters/1/Ports/1/VCAT"
         }
     },
     "Metrics": {
-        "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/Ports/1/Metrics"
+        "@odata.id": "/redfish/v1/Systems/2/FabricAdapters/1/Ports/1/Metrics"
     },
     "Links": {
         "ConnectedSwitches": [
@@ -52,7 +52,7 @@
         ],
         "ConnectedPorts": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/5"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/4"
             }
         ]
     },

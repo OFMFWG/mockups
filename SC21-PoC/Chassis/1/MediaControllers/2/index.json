@@ -26,7 +26,7 @@
     "Links": {
         "Endpoints": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/1/Endpoints/2"
+                "@odata.id": "/redfish/v1/Fabrics/1/Endpoints/6"
             }
         ],
         "MemoryDomains": [

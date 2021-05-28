@@ -52,7 +52,7 @@
         ],
         "ConnectedPorts": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/5"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/1"
             }
         ]
     },

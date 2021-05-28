@@ -38,7 +38,7 @@
         ],
         "ConnectedPorts": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/1/Switches/Switch1/Ports/1"
+                "@odata.id": "/redfish/v1/Fabrics/1/Switches/Switch1/Ports/7"
             }
         ]
     },
