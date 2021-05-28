@@ -1,0 +1,62 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/1",
+    "@odata.type": "#Endpoint.v1_6_0.Endpoint",
+    "Id": "1",
+    "Name": "FAM Media Controller 1",
+    "Description": "Fabric Attached Memory Media Controller",
+    "EndpointProtocol": "GenZ",
+    "ConnectedEntities": [
+        {
+            "EntityType": "MediaController",
+            "EntityRole": "Target",
+            "GenZ": {
+                "GCID": {
+                    "CID": "0x001",
+                    "SID": "0x0001"
+                },
+                "AccessKey": "0x1A"
+            },
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/1"
+            }
+        },
+        {
+            "EntityType": "MemoryChunk",
+            "EntityRole": "Target",
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/1/MemoryChunks/1"
+            }
+        },
+        {
+            "EntityType": "MemoryChunk",
+            "EntityRole": "Target",
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/1/MemoryChunks/2"
+            }
+        }
+    ],
+    "Links": {
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/1"
+            }
+        ],
+        "AddressPools": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/AddressPools/AP1"
+            }
+        ],
+        "Zones": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/1"
+            }
+        ],
+        "Connections": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Connections/10"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

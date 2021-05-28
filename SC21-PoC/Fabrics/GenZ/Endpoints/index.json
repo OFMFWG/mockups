@@ -1,0 +1,30 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints",
+    "@odata.type": "#EndpointCollection.EndpointCollection",
+    "Name": "Gen-Z Endpoint Collection",
+    "Members@odata.count": 7,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/7"
+        }
+    ],
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

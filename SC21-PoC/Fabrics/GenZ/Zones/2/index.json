@@ -1,0 +1,35 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/2",
+    "@odata.type": "#Zone.v1_6_1.Zone",
+    "Id": "2",
+    "Name": "Gen-Z Fabric Zone 2",
+    "Description": "Gen-Z Fabric Zone 2",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "ZoneType": "ZoneOfEndpoints",
+    "Links": {
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/3"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4"
+            }
+        ],
+        "AddressPools": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/AddressPools/AP1"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

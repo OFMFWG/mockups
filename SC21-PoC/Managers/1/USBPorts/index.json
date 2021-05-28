@@ -1,0 +1,14 @@
+{
+    "@odata.type": "#PortCollection.PortCollection",
+    "Name": "Manager USB Port Collection",
+    "Description": "Manager USB Port Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/1/USBPorts/1"
+        }
+    ],
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Managers/1/USBPorts",
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

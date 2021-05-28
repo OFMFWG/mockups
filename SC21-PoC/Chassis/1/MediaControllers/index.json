@@ -1,0 +1,21 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/MediaControllers",
+    "@odata.type": "#MediaControllerCollection.MediaControllerCollection",
+    "Name": "MediaController Collection",
+    "Members@odata.count": 4,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/4"
+        }
+    ],
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

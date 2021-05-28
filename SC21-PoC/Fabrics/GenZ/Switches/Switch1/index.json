@@ -1,0 +1,35 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1",
+    "@odata.type": "#Switch.v1_6_0.Switch",
+    "Id": "1",
+    "Name": "Gen-Z Switch 1",
+    "SwitchType": "GenZ",
+    "Manufacturer": "Contoso",
+    "Model": "Switch Model XM13",
+    "SerialNumber": "2M220100SL",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports"
+    },
+    "Status": {
+        "State": "Disabled",
+        "Health": "OK"
+    },
+    "UUID": "1ad59fe9-49f9-52fa-9a93-e349f9477fe0",
+    "Actions": {
+        "#Switch.Reset": {
+            "target": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Actions/Switch.Reset",
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart"
+            ]
+        }
+    },
+    "Links": {
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/8"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

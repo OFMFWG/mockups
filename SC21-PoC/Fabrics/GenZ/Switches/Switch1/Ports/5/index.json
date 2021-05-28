@@ -1,0 +1,48 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/5",
+    "@odata.type": "#Port.v1_4_0.Port",
+    "Id": "5",
+    "Name": "Gen-Z Switch Port 5",
+    "Description": "Gen-Z Switch Port 5",
+    "PortId": "5",
+    "PortProtocol": "GenZ",
+    "PortType": "BidirectionalPort",
+    "PortMedium": "Electrical",
+    "CurrentSpeedGbps": 56,
+    "Width": 4,
+    "MaxSpeedGbps": 56,
+    "LinkNetworkTechnology": "GenZ",
+    "ActiveWidth": 4,
+    "SignalDetected": true,
+    "LinkTransitionIndicator": 0,
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "InterfaceEnabled": true,
+    "Status": {
+        "State": "StandbyOffline",
+        "Health": "OK"
+    },
+    "Actions": {
+        "#Port.Reset": {
+            "target": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/5/Action/Port.Reset",
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart"
+            ]
+        }
+    },
+    "Metrics": { },
+    "Links": {
+        "AssociatedEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4"
+            }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/GenZ/MediaControllers/3/Ports/1"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

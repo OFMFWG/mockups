@@ -1,0 +1,48 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/0",
+    "@odata.type": "#Zone.v1_6_1.Zone",
+    "Id": "Default",
+    "Name": "Gen-Z Fabric Default Zone",
+    "Description": "Gen-Z Fabric Default Zone",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "ZoneType": "Default",
+    "DefaultRoutingEnabled": false,
+    "Links": {
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/3"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/5"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/6"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/7"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/8"
+            }
+        ],
+        "AddressPools": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/AddressPools/AP1"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

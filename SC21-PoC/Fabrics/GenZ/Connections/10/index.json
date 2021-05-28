@@ -1,0 +1,56 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Connections/10",
+    "@odata.type": "#Connection.v1_1_0.Connection",
+    "Description": "Gen-Z Connection 10 Information",
+    "Id": "10",
+    "Name": "Connection 10",
+    "ConnectionType": "Memory",
+    "MemoryChunkInfo": [
+        {
+            "MemoryChunk": {
+                "@odata.id": "/redfish/v1/Chassis/GenZ/MemoryDomains/2/MemoryChunks/1"
+            },
+            "AccessCapabilities": [
+                "Read",
+                "Write"
+            ],
+            "AccessState": "Optimized"
+        },
+        {
+            "MemoryChunk": {
+                "@odata.id": "/redfish/v1/Chassis/GenZ/MemoryDomains/2/MemoryChunks/2"
+            },
+            "AccessState": "Optimized",
+            "AccessCapabilities": [
+                "Read",
+                "Write"
+            ]
+        }
+    ],
+    "ConnectionKeys": {
+        "GenZ": {
+            "RKeyDomainCheckingEnabled": true,
+            "AccessKey": "0x3A",
+            "RKeyReadOnlyKey": "0x447fecb0",
+            "RKeyReadWriteKey": "0x4733f51d"
+        }
+    },
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "Links": {
+        "InitiatorEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/5"
+            }
+        ],
+        "TargetEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4"
+            }
+        ]
+    },
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

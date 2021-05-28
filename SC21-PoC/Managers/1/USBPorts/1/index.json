@@ -1,0 +1,38 @@
+{
+    "@odata.type": "#Port.v1_4_0.Port",
+    "Id": "1",
+    "Name": "Management USB Port",
+    "Description": "Management USB Port",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "PortId": "1",
+    "PortProtocol": "USB",
+    "PortType": "BidirectionalPort",
+    "CurrentSpeedGbps": 0,
+    "Width": 1,
+    "MaxSpeedGbps": 0.48,
+    "CurrentProtocolVersion": null,
+    "CapableProtocolVersions": [
+        "1.0",
+        "1.1",
+        "2.0"
+    ],
+    "Location": {
+        "PartLocation": {
+            "ServiceLabel": "Management USB Port",
+            "LocationOrdinalValue": 5,
+            "LocationType": "Connector",
+            "Orientation": "TopToBottom",
+            "Reference": "Front"
+        }
+    },
+    "Actions": {
+        "Oem": {}
+    },
+    "Links": {},
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Managers/1/USBPorts/1",
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

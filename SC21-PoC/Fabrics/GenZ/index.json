@@ -1,0 +1,26 @@
+{
+    "@odata.type": "#Fabric.v1_2_2.Fabric",
+    "@odata.id": "/redfish/v1/Fabrics/GenZ",
+    "Id": "GenZ",
+    "Name": "Gen-Z Fabric",
+    "FabricType": "GenZ",
+    "Description": "A Gen-Z Interconnect Fabric",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "Connections": {
+        "@odata.id": "/redfish/v1/Fabrics/GenZ/Connections"
+    },
+    "Switches": {
+        "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches"
+    },
+    "Endpoints": {
+        "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints"
+    },
+    "Zones": {
+        "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones"
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

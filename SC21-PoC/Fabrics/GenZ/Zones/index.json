@@ -1,0 +1,19 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones",
+    "@odata.type": "#ZoneCollection.ZoneCollection",
+    "Name": "Gen-Z Zone Collection",
+    "Members@odata.count": 3,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/2"
+        }
+    ],
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

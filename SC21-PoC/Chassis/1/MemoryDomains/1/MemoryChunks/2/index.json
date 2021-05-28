@@ -1,0 +1,42 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/1/MemoryChunks/2",
+    "@odata.type": "#MemoryChunks.v1_4_1.MemoryChunks",
+    "Name": "Memory Chunk 2",
+    "Id": "2",
+    "MemoryChunkSizeMiB": 65536,
+    "AddressRangeType": "Volatile",
+    "IsMirrorEnabled": false,
+    "IsSpare": false,
+    "AddressRangeOffsetMiB": 0,
+    "InterleaveSets": [
+        {
+            "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/1/Memory/4"
+            }
+        },
+        {
+            "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/1/Memory/5"
+            }
+        },
+        {
+            "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/1/Memory/6"
+            }
+        },
+        {
+            "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/1/Memory/7"
+            }
+        }
+    ],
+    "Links": {
+        "Endpoints": [
+            {
+                "odata.id": "/redfish/v1/Fabrics/1/Endpoints/1"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

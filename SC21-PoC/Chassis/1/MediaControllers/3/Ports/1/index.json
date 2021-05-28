@@ -1,0 +1,47 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/3/Ports/1",
+    "@odata.type": "#Port.v1_4_0.Port",
+    "Id": "1",
+    "Name": "Media Controller Port 1",
+    "Description": "Media Controller Port 1",
+    "PortId": "1",
+    "PortProtocol": "GenZ",
+    "PortType": "BidirectionalPort",
+    "PortMedium": "Electrical",
+    "CurrentSpeedGbps": 56,
+    "Width": 4,
+    "MaxSpeedGbps": 56,
+    "LinkNetworkTechnology": "GenZ",
+    "ActiveWidth": 4,
+    "SignalDetected": true,
+    "LinkTransitionIndicator": 0,
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "InterfaceEnabled": true,
+    "Status": {
+        "State": "StandbyOffline",
+        "Health": "OK"
+    },
+    "Actions": {
+        "#Port.Reset": {
+            "target": "/redfish/v1/Chassis/1/MediaControllers/3/Ports/1/Action/Port.Reset",
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart"
+            ]
+        }
+    },
+    "Links": {
+        "ConnectedSwitches": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/1/Switches/Switch1"
+            }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/1/Switches/Switch1/Ports/3"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

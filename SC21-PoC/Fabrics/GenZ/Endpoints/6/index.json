@@ -1,0 +1,46 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/6",
+    "@odata.type": "#Endpoint.v1_6_0.Endpoint",
+    "Id": "6",
+    "Name": "Compute Node 2",
+    "Description": "Compute Node 2 Fabric Bridge",
+    "EndpointProtocol": "GenZ",
+    "ConnectedEntities": [
+        {
+            "EntityType": "FabricBridge",
+            "EntityRole": "Initiator",
+            "GenZ": {
+                "GCID": {
+                    "CID": "0x100",
+                    "SID": "0x0009"
+                },
+                "AccessKey": "0x2D"
+            },
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Systems/2/FabricAdapters/1"
+            }
+        }
+    ],
+    "Links": {
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/21"
+            }
+        ],
+        "AddressPools": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/AddressPools/AP2"
+            }
+        ],
+        "Zones": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/3"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}
