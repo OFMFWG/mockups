@@ -2,58 +2,47 @@
     "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/1",
     "@odata.type": "#Endpoint.v1_6_0.Endpoint",
     "Id": "1",
-    "Name": "FAM Media Controller 1",
-    "Description": "Fabric Attached Memory Media Controller",
+    "Name": "Fabric Management Node 3",
+    "Description": "Fabric Management Node 3 Fabric Bridge",
     "EndpointProtocol": "GenZ",
     "ConnectedEntities": [
         {
-            "EntityType": "MediaController",
-            "EntityRole": "Target",
+            "EntityType": "FabricBridge",
+            "EntityRole": "Initiator",
             "GenZ": {
                 "GCID": {
-                    "CID": "0x001",
-                    "SID": "0x0001"
+                    "CID": "0x100",
+                    "SID": "0x0009"
                 },
-                "AccessKey": "0x1A"
+                "AccessKey": "0x2D"
             },
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/1"
-            }
-        },
-        {
-            "EntityType": "MemoryChunk",
-            "EntityRole": "Target",
-            "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/1/MemoryChunks/1"
-            }
-        },
-        {
-            "EntityType": "MemoryChunk",
-            "EntityRole": "Target",
-            "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/1/MemoryChunks/2"
+                "@odata.id": "/redfish/v1/Systems/FM/FabricAdapters/1"
             }
         }
     ],
     "Links": {
         "ConnectedPorts": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/1"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/6"
             }
         ],
         "AddressPools": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/AddressPools/AP1"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/AddressPools/AP2"
             }
         ],
         "Zones": [
             {
                 "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/3"
             }
         ],
         "Connections": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Connections/10"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Connections/24"
             }
         ]
     },

@@ -1,8 +1,8 @@
 {
-    "@odata.id": "/redfish/v1/Systems/1",
+    "@odata.id": "/redfish/v1/Systems/2",
     "@odata.type": "#ComputerSystem.1.00.0.ComputerSystem",
-    "Id": "1",
-    "Name": "Compute Node 1",
+    "Id": "2",
+    "Name": "Compute Node 2",
     
     "SystemType": "Physical",
     "AssetTag": "free form asset tag",
@@ -57,7 +57,7 @@
         }
     },
     "FabricAdapters": [
-        { "@odata.id": "/redfish/1/Systems/1/FabricAdapters" }
+        { "@odata.id": "/redfish/1/Systems/2/FabricAdapters" }
     ],
     "Links": {
         "Chassis": [
@@ -69,16 +69,16 @@
             {"@odata.id": "/redfish/v1/Managers/1"}
         ],
         "SimpleNetwork": {
-            "@odata.id": "/redfish/v1/Systems/1/SimpleNetwork"
+            "@odata.id": "/redfish/v1/Systems/2/SimpleNetwork"
         },
         "SimpleStorage": {
-            "@odata.id": "/redfish/v1/Systems/1/SimpleStorage"
+            "@odata.id": "/redfish/v1/Systems/2/SimpleStorage"
         },
         "Oem": {}
     },
     "Actions": {
         "#ComputerSystem.Reset": {
-            "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset",
+            "target": "/redfish/v1/Systems/2/Actions/ComputerSystem.Reset",
             "ResetType@DMTF.AllowableValues": [
                 "On",
                 "ForceOff",
@@ -90,23 +90,6 @@
                 "PushPowerButton"
             ]
         },
-        "Oem": {
-            "http://Contoso.com/Schema/CustomTypes#Contoso.Reset": {
-                "target": "/redfish/v1/Systems/1/OEM/Contoso/Actions/Contoso.Reset"
-            }
-        }
-    },
-    "Oem": {
-        "Contoso": {
-            "@odata.type": "http://Contoso.com/Schema#Contoso.ComputerSystem",
-            "ProductionLocation": {
-                "FacilityName": "PacWest Production Facility",
-                "Country": "USA"
-            }
-        },
-        "Chipwise": {
-            "@odata.type": "http://Chipwise.com/Schema#Chipwise.ComputerSystem",
-            "Style": "Executive"
-        }
+        "Oem": { }
     }
 }

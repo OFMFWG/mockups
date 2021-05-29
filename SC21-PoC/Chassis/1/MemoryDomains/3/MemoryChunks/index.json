@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/3/MemoryChunks",
+    "@odata.type": "#MemoryChunksCollection.MemoryChunksCollection",
+    "Name": "Memory Chunks Collection",
+    "Members@odata.count": 2,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/3/MemoryChunks/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/3/MemoryChunks/2"
+        }
+    ],
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

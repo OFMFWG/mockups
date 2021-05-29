@@ -1,9 +1,9 @@
 {
-    "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/1",
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4",
     "@odata.type": "#Endpoint.v1_6_0.Endpoint",
-    "Id": "1",
-    "Name": "FAM Media Controller 1",
-    "Description": "Fabric Attached Memory Media Controller",
+    "Id": "4",
+    "Name": "FAM Media Controller 3",
+    "Description": "Fabric Attached Memory Media Controller 3",
     "EndpointProtocol": "GenZ",
     "ConnectedEntities": [
         {
@@ -17,28 +17,28 @@
                 "AccessKey": "0x1A"
             },
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/1"
+                "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/3"
             }
         },
         {
             "EntityType": "MemoryChunk",
             "EntityRole": "Target",
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/1/MemoryChunks/1"
+                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/3/MemoryChunks/1"
             }
         },
         {
             "EntityType": "MemoryChunk",
             "EntityRole": "Target",
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/1/MemoryChunks/2"
+                "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/3/MemoryChunks/2"
             }
         }
     ],
     "Links": {
         "ConnectedPorts": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/1"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/5"
             }
         ],
         "AddressPools": [

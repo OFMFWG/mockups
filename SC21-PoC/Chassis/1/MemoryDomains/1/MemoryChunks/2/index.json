@@ -11,29 +11,29 @@
     "InterleaveSets": [
         {
             "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/1/Memory/1"
+            }
+        },
+        {
+            "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/1/Memory/2"
+            }
+        },
+        {
+            "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/1/Memory/3"
+            }
+        },
+        {
+            "Memory": {
                 "@odata.id": "/redfish/v1/Chassis/1/Memory/4"
-            }
-        },
-        {
-            "Memory": {
-                "@odata.id": "/redfish/v1/Chassis/1/Memory/5"
-            }
-        },
-        {
-            "Memory": {
-                "@odata.id": "/redfish/v1/Chassis/1/Memory/6"
-            }
-        },
-        {
-            "Memory": {
-                "@odata.id": "/redfish/v1/Chassis/1/Memory/7"
             }
         }
     ],
     "Links": {
         "Endpoints": [
             {
-                "odata.id": "/redfish/v1/Fabrics/1/Endpoints/1"
+                "odata.id": "/redfish/v1/Fabrics/1/Endpoints/7"
             }
         ]
     },

@@ -43,12 +43,12 @@
     "Links": {
         "InitiatorEndpoints": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/5"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/3"
             }
         ],
         "TargetEndpoints": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/5"
             }
         ]
     },

@@ -1,0 +1,38 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/4",
+    "@odata.type": "#MemoryDomain.v1_3_0.MemoryDomain",
+    "Name": "Node Memory Domain",
+    "Id": "4",
+    "MemoryChunks": {
+        "@odata.id": "/redfish/v1/Chassis/1/MemoryDomains/4/MemoryChunks"
+    },
+    "AllowsMemoryChunkCreation": false,
+    "AllowsBlockProvisioning": false,
+    "InterleavableMemorySets": [
+        {
+            "MemorySet": [
+                {
+                    "@odata.id": "/redfish/v1/Chassis/1/Memory/13"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/1/Memory/14"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/1/Memory/15"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/1/Memory/16"
+                }
+            ]
+        }
+    ],
+    "Links": {
+        "MediaControllers": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/4"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}
