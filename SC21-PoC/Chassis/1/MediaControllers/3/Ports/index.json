@@ -1,5 +1,5 @@
 {
-    "@odata.id": "/redfish/v1/Chassis/GenZ/MediaControllers/3/Ports",
+    "@odata.id": "/redfish/v1/Chassis/1/MediaControllers/3/Ports",
     "@odata.type": "#PortCollection.PortCollection",
     "Name": "Media Controller Port Collection",
     "Members@odata.count": 1,
