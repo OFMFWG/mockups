@@ -10,5 +10,5 @@
   ],
   "Oem": {},
   "@odata.id": "/redfish/v1/Storage/IPAttachedDrive/Volumes",
-  "@Redfish.Copyright": "Copyright 2014-2020 SNIA. All rights reserved."
+  "@Redfish.Copyright": "Copyright 2021 OpenFabrics Alliance. All rights reserved."
 }
