@@ -1,0 +1,24 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/3",
+    "@odata.type": "#Zone.v1_6_1.Zone",
+    "Id": "3",
+    "Name": "Gen-Z Fabric Zone 3",
+    "Description": "Gen-Z Fabric Zone 3",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "ZoneType": "ZoneOfZones",
+    "Links": {
+        "Zones": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/2"
+            }
+        ]
+    },
+    "Oem": {},
+    "@Redfish.Copyright": "Copyright 2021 Open Fabrics Alliance. All Rights Reserved."
+}

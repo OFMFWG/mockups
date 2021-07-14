@@ -2,7 +2,7 @@
     "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones",
     "@odata.type": "#ZoneCollection.ZoneCollection",
     "Name": "Gen-Z Zone Collection",
-    "Members@odata.count": 3,
+    "Members@odata.count": 4,
     "Members": [
         {
             "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/0"
@@ -12,6 +12,9 @@
         },
         {
             "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/3"
         }
     ],
     "Oem": {},
