@@ -32,9 +32,6 @@
             },
             {
                 "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/7"
-            },
-            {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/8"
             }
         ],
         "AddressPools": [
