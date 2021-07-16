@@ -41,11 +41,6 @@
                 "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/5"
             }
         ],
-        "AddressPools": [
-            {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/AddressPools/AP1"
-            }
-        ],
         "Zones": [
             {
                 "@odata.id": "/redfish/v1/Fabrics/GenZ/Zones/1"
