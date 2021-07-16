@@ -12,16 +12,10 @@
     "Links": {
         "Endpoints": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/1"
-            },
-            {
                 "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/2"
             },
             {
                 "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/3"
-            },
-            {
-                "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/4"
             }
         ]
     },
