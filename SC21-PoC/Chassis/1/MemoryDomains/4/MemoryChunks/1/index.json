@@ -33,7 +33,7 @@
     "Links": {
         "Endpoints": [
             {
-                "odata.id": "/redfish/v1/Fabrics/1/Endpoints/5"
+                "odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/5"
             }
         ]
     },
