@@ -1,5 +1,5 @@
 {
-  "@Redfish.Copyright": "Copyright 2014-2020 SNIA. All rights reserved.",
+  "@Redfish.Copyright": "Copyright 2021 OpenFabrics Alliance. All rights reserved."
   "@odata.id": "/redfish/v1/Storage/IPAttachedDrive",
   "@odata.type": "#Storage.v1_10_0.Storage",
   "Id": "1",

@@ -16,5 +16,5 @@
       "CorrespondingProfileDefinition": "SwordfishNVMeDriveEthernetAttach.json"
     }
   ],
-  "@Redfish.Copyright": "Copyright 2019-2021 SNIA. All rights reserved."
+  "@Redfish.Copyright": "Copyright 2021 OpenFabrics Alliance. All rights reserved."
 }

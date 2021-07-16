@@ -9,5 +9,5 @@
     }
   ],
   "@odata.id": "/redfish/v1/Storage/IPAttachedDrive/Controllers",
-  "@Redfish.Copyright": "Copyright 2020 SNIA. All rights reserved."
+  "@Redfish.Copyright": "Copyright 2021 OpenFabrics Alliance. All rights reserved."
 }
