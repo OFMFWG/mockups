@@ -33,12 +33,12 @@
     "Links": {
         "ConnectedSwitches": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/1/Switches/Switch1"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1"
             }
         ],
         "ConnectedPorts": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/1/Switches/Switch1/Ports/3"
+                "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/Switch1/Ports/3"
             }
         ]
     },
