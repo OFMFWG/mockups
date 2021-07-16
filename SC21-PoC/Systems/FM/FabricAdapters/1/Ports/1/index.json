@@ -30,20 +30,6 @@
             ]
         }
     },
-    "GenZ": {
-        "LPRT": {
-            "@odata.id": "/redfish/v1/Systems/FM/FabricAdapters/1/Ports/1/LPRT"
-        },
-        "MPRT": {
-            "@odata.id": "/redfish/v1/Systems/FM/FabricAdapters/1/Ports/1/MPRT"
-        },
-        "VCAT": {
-            "@odata.id": "/redfish/v1/Systems/FM/FabricAdapters/1/Ports/1/VCAT"
-        }
-    },
-    "Metrics": {
-        "@odata.id": "/redfish/v1/Systems/FM/FabricAdapters/1/Ports/1/Metrics"
-    },
     "Links": {
         "ConnectedSwitches": [
             {

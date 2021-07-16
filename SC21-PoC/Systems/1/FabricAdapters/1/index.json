@@ -2,12 +2,12 @@
     "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1",
     "@odata.type": "#FabricAdapter.v1_0_0.FabricAdapter",
     "Id": "1",
-    "Name": "Gen-Z Bridge",
+    "Name": "Gen-Z Fabric Bridge",
     "Manufacturer": "Contoso",
-    "Model": "Gen-Z Bridge Model X",
+    "Model": "Gen-Z Fabric Bridge Model X",
     "PartNumber": "975999-001",
     "SparePartNumber": "152111-A01",
-    "SKU": "Contoso 2-port Gen-Z Bridge",
+    "SKU": "Contoso 2-port Gen-Z Fabric Bridge",
     "SerialNumber": "2M220100SL",
     "ASICRevisionIdentifier": "A0",
     "ASICPartNumber": "53312",
@@ -32,72 +32,6 @@
             {
                 "@odata.id": "/redfish/v1/Fabrics/GenZ/Endpoints/3"
             }
-        ]
-    },
-    "GenZ": {
-        "SSDT": {
-            "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/SSDT"
-        },
-        "MSDT": {
-            "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/MSDT"
-        },
-        "RequestorVCAT": {
-            "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/REQ-VCAT"
-        },
-        "ResponderVCAT": {
-            "@odata.id": "/redfish/v1/Systems/1/FabricAdapters/1/RSP-VCAT"
-        },
-        "RITable": [
-            "0x12",
-            "0x3E",
-            "0x12",
-            "0x3E",
-            "0x12",
-            "0x3E",
-            "0x12",
-            "0x3E",
-            "0x12",
-            "0x3E",
-            "0x12",
-            "0x3E",
-            "0x12",
-            "0x3E",
-            "0x12",
-            "0x3E"
-        ],
-        "PIDT": [
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568",
-            "0x12234568"
         ]
     },
     "Oem": {},
