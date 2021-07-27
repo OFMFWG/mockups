@@ -1,5 +1,5 @@
 {
-  "@Redfish.Copyright": "Copyright 2021 OpenFabrics Alliance. All rights reserved."
+  "@Redfish.Copyright": "Copyright 2021 OpenFabrics Alliance. All rights reserved.",
   "@odata.id": "/redfish/v1/Storage/IPAttachedDrive/Volumes/SimpleNamespace",
   "@odata.type": "#Volume.v1_5_0.Volume",
   "Id": "1",
