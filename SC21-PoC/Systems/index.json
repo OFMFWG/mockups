@@ -3,19 +3,16 @@
     "@odata.id": "/redfish/v1/Systems",
     "@odata.type": "#ComputerSystemCollection.ComputerSystemCollection",
     "Name": "Computer System Collection",
-
-    "Links": {
-        "Members@odata.count":3,
-        "Members": [
-            {
-                "@odata.id": "/redfish/v1/Systems/1"
-            },
-            {
-                "@odata.id": "/redfish/v1/Systems/2"
-            },
-            {
-                "@odata.id": "/redfish/v1/Systems/FM"
-            }
-        ]
-    }
+    "Members@odata.count":3,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/FM"
+        }
+    ]
 }
