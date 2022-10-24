@@ -1,0 +1,13 @@
+{
+    "@odata.type": "#MemoryChunksCollection.MemoryChunksCollection",
+    "Name": "Memory Chunks Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains/CXL/MemoryChunks/1"
+        }
+    ],
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains/CXL/MemoryChunks",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

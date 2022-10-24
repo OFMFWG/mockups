@@ -1,0 +1,40 @@
+{
+    "@odata.type": "#PCIeDevice.v1_10_0.PCIeDevice",
+    "Id": "1",
+    "Name": "CXL Device",
+    "Description": "CXL Physcial Device Type 3",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PCIeInterface": {
+        "PCIeType": "Gen5",
+        "MaxPCIeType": "Gen5",
+        "LanesInUse": 8,
+        "MaxLanes": 16
+    },
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/PCIeFunctions"
+    },
+    "CXLDevice":{
+        "CurrentProtocolVersion": "V3_0",
+        "CapableProtocolVersion": "V3_0",
+        "DeviceType": "Type3",
+        "MultiLogicalDevice": true
+    },
+    "CXLLogicalDevices": {
+        "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices"
+    },
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/CXL3MLD"
+            }
+        ],
+        "Oem": {}
+    },
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

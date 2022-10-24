@@ -1,0 +1,42 @@
+{
+    "@odata.type": "#Port.v1_7_0.Port",
+    "Id": "D1",
+    "Name": "CXL Port 2",
+    "Description": "CXL Downstream Port 1 in switch",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PortId": "2",
+    "PortProtocol": "CXL",
+    "CurrentProtocolVersion": "3.0",
+    "CapableProtocolVersions": [
+        "1.1", "2.0", "3.0"
+    ],
+    "PortType": "DownstreamPort",
+    "PortMedium": "Optical",
+    "CurrentSpeedGbps": 256,
+    "Width": 8,
+    "MaxSpeedGbps": 512,
+    "ActiveWidth": 16,
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "InterfaceEnabled": true,
+    "LinkNetworkTechnology": "PCIe",
+    "Links": {
+        "AssociatedEndpoints": [
+			{
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
+            }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/CXL3MLD/FabricAdapters/1/Ports/1"
+            }
+        ]
+    },
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D1",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}
