@@ -1,0 +1,28 @@
+{
+    "@odata.type": "#Drive.v1_15_0.Drive",
+    "Id": "Z1W127TV",
+    "Name": "Drive 16",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "StatusIndicator": "OK",
+    "CapacityBytes": 1000201246474,
+    "FailurePredicted": false,
+    "Protocol": "SATA",
+    "MediaType": "HDD",
+    "Manufacturer": "HDD-Company",
+    "SerialNumber": "Z1W127TV",
+    "PartNumber": "ST1000NM00339ZM",
+    "Identifiers": [
+        {
+            "DurableNameFormat": "NAA",
+            "DurableName": "300062B202B2184D"
+        }
+    ],
+    "BlockSizeBytes": 512,
+    "NegotiatedSpeedGbs": 6,
+    "Links": {},
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W127TV",
+    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}

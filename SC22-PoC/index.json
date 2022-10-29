@@ -14,5 +14,16 @@
   "Fabrics": {
     "@odata.id": "/redfish/v1/Fabrics"
   },
+  "Registries": {
+    "@odata.id": "/redfish/v1/Registries"
+  },
+  "Storage": {
+    "@odata.id": "/redfish/v1/Storage"
+  },
+  "Links": {
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
   "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
 }

@@ -1,0 +1,115 @@
+{
+  "@odata.type": "#Storage.v1_13_0.Storage",
+  "Id": "1",
+  "Name": "Storage Systems",
+  "Description": "Mockup of a NVMe/TCP Storage System.",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "StorageControllers": [{
+      "@odata.id": "/redfish/v1/Storage/NVMeArray#/StorageControllers/0",
+      "MemberId": "0",
+      "Name": "Storage Controller",
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "Manufacturer": "Best Storage Vendor",
+      "Model": "Simple Storage Device",
+      "SerialNumber": "SS123456",
+      "PartNumber": "SS44",
+      "FirmwareVersion": "1.0.0",
+      "SupportedControllerProtocols": [
+        "NVMe", "TCP"
+      ]
+    },
+    {
+      "@odata.id": "/redfish/v1/Storage/NVMeArray#/StorageControllers/1",
+      "MemberId": "0",
+      "Name": "Storage Controller",
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "Manufacturer": "Best Storage Vendor",
+      "Model": "Simple Storage Device",
+      "SerialNumber": "SS123457",
+      "PartNumber": "SS44",
+      "FirmwareVersion": "1.0.0",
+      "SupportedControllerProtocols": [
+        "NVMe", "TCP"
+      ]
+    }
+  ],
+  "Controllers": {
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/Controllers"
+  },
+  "Volumes": {
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/Volumes"
+  },
+  "StoragePools": {
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools"
+  },
+  "Drives": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH8N20R"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH8S1JR"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH9AWMU"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH9ZH5P"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THEZDAU"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THGXLUP"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THGR0KP"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THGXLUP"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THGXPBP"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W1LGHQ"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W2QYB6"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W4GCER"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W06ESV"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W06EX4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W06TTC"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W127TV"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W0181K"
+    }
+  ],
+  "Links": {
+    "Enclosures": [{
+      "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1"
+    }]
+  },
+  "@odata.id": "/redfish/v1/Storage/NVMeArray",
+  "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}

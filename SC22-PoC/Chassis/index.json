@@ -1,7 +1,7 @@
 {
 	"@odata.type": "#ChassisCollection.ChassisCollection",
 	"Name": "Chassis Collection",
-	"Members@odata.count": 3,
+	"Members@odata.count": 4,
 	"Members": [
 		{
 			"@odata.id": "/redfish/v1/Chassis/CXL-Chassis"
@@ -10,8 +10,11 @@
 			"@odata.id": "/redfish/v1/Chassis/CXL3MLD"
 		},
 		{
-		        "@odata.id": "/redfish/v1/Chassis/PCXL3"
-		}
+		    "@odata.id": "/redfish/v1/Chassis/PCXL3"
+		},
+		{
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1"
+        }
 	],
 	"@odata.id": "/redfish/v1/Chassis",
 	"@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."

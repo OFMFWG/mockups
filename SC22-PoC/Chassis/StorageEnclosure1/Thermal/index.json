@@ -1,0 +1,117 @@
+{
+    "@odata.type": "#Thermal.v1_7_1.Thermal",
+    "Id": "Thermal",
+    "Name": "Thermal",
+    "Temperatures": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal#/Temperatures/0",
+            "MemberId": "2",
+            "Name": "Chassis Intake Temp",
+            "SensorNumber": 44,
+            "Status": {
+                "State": "Enabled",
+                "Health": "OK"
+            },
+            "ReadingCelsius": 25,
+            "UpperThresholdNonCritical": 30,
+            "UpperThresholdCritical": 40,
+            "UpperThresholdFatal": 50,
+            "LowerThresholdNonCritical": 10,
+            "LowerThresholdCritical": 5,
+            "LowerThresholdFatal": 0,
+            "PhysicalContext": "Intake",
+            "RelatedItem": [
+                {
+                    "@odata.id": "/redfish/v1/Storage/NVMeArray"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1"
+                }
+            ]
+        }
+    ],
+    "Fans": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal#/Fans/0",
+            "MemberId": "0",
+            "Name": "BaseBoard System Fan",
+            "PhysicalContext": "Backplane",
+            "Status": {
+                "State": "Enabled",
+                "Health": "OK"
+            },
+            "UpperThresholdNonCritical": 42,
+            "UpperThresholdCritical": 4200,
+            "UpperThresholdFatal": 42,
+            "LowerThresholdNonCritical": 42,
+            "LowerThresholdCritical": 5,
+            "LowerThresholdFatal": 42,
+            "Redundancy": [
+                {
+                    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal#/Redundancy/0"
+                }
+            ],
+            "RelatedItem": [
+                {
+                    "@odata.id": "/redfish/v1/Storage/NVMeArray"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1"
+                }
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal#/Fans/1",
+            "MemberId": "1",
+            "Name": "BaseBoard System Fan Backup",
+            "PhysicalContext": "Backplane",
+            "Status": {
+                "State": "Enabled",
+                "Health": "OK"
+            },
+            "UpperThresholdNonCritical": 42,
+            "UpperThresholdCritical": 4200,
+            "UpperThresholdFatal": 42,
+            "LowerThresholdNonCritical": 42,
+            "LowerThresholdCritical": 5,
+            "LowerThresholdFatal": 42,
+            "Redundancy": [
+                {
+                    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Power#/Redundancy/0"
+                }
+            ],
+            "RelatedItem": [
+                {
+                    "@odata.id": "/redfish/v1/Storage/NVMeArray"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1"
+                }
+            ]
+        }
+    ],
+    "Redundancy": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal#/Redundancy/0",
+            "MemberId": "0",
+            "Name": "System Fans",
+            "RedundancySet": [
+                {
+                    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal#/Fans/0"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal#/Fans/1"
+                }
+            ],
+            "Mode": "N+m",
+            "Status": {
+                "State": "Enabled",
+                "Health": "OK"
+            },
+            "MinNumNeeded": 1,
+            "MaxNumSupported": 2
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal",
+    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}

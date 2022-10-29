@@ -1,0 +1,28 @@
+{
+    "@odata.type": "#Drive.v1_15_0.Drive",
+    "Id": "Z1W4GCER",
+    "Name": "Drive 15",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "StatusIndicator": "OK",
+    "CapacityBytes": 1000201246474,
+    "FailurePredicted": false,
+    "Protocol": "SATA",
+    "MediaType": "HDD",
+    "Manufacturer": "HDD-Company",
+    "SerialNumber": "Z1W4GCER",
+    "PartNumber": "ST1000NM00339ZM",
+    "Identifiers": [
+        {
+            "DurableNameFormat": "NAA",
+            "DurableName": "300062B202B21846"
+        }
+    ],
+    "BlockSizeBytes": 512,
+    "NegotiatedSpeedGbs": 6,
+    "Links": {},
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W4GCER",
+    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}

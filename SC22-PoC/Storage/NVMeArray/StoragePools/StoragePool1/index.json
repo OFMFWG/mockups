@@ -1,0 +1,44 @@
+{
+    "@odata.type": "#StoragePool.v1_7_1.StoragePool",
+    "Id": "StoragePool1",
+    "Name": "Storage Pool for Opaque Array",
+    "Description": "Simple Storage Pool for Simple System",
+    "SupportedRAIDTypes": [
+        "RAID0",
+        "RAID5"
+    ],
+    "RemainingCapacityPercent": 0,
+    "Capacity": {
+        "Data": {
+            "AllocatedBytes": 600135780272,
+            "ConsumedBytes": 600135780272
+        }
+    },
+    "CapacitySources": [
+        {
+          "@odata.type": "#Capacity.v1_2_0.CapacitySource",
+          "Id": "Source1",
+          "Name": "Source1",
+          "ProvidedCapacity": {
+              "Data": {
+                  "ConsumedBytes": 600135780272,
+                  "AllocatedBytes": 600135780272
+              }
+          },
+          "ProvidingDrives": {
+              "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/CapacitySources/Source1/ProvidingDrives"
+          },
+          "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/CapacitySources/Source1"
+        }
+    ],
+    "AllocatedVolumes": {
+        "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes"
+    },
+    "Links": {
+        "OwningStorageResource": {
+            "@odata.id": "/redfish/v1/Storage/NVMeArray"
+        }
+    },
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1",
+    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}

@@ -1,0 +1,53 @@
+{
+    "@odata.type": "#StorageController.v1_3_0.StorageController",
+    "Name": "NVMe Admin Controller",
+    "Description": "Single NVMe Admin Controller for in-band admin command access.",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "Id": "NVMeAdminController",
+    "Manufacturer": "Best NVMe Vendor",
+    "Model": "NVMe Connect Array",
+    "SerialNumber": "NVME123456",
+    "PartNumber": "NVM44",
+    "FirmwareVersion": "1.0.0",
+    "SupportedControllerProtocols": [
+        "PCIe"
+    ],
+    "NVMeControllerProperties": {
+        "ControllerType": "Admin",
+        "NVMeVersion": "1.3",
+        "NVMeControllerAttributes": {
+            "SupportsSQAssociations": false,
+            "SupportsTrafficBasedKeepAlive": false,
+            "SupportsExceedingPowerOfNonOperationalState": false,
+            "Supports128BitHostId": false
+        },
+      "NVMeSMARTCriticalWarnings": {
+        "MediaInReadOnly": false,
+        "OverallSubsystemDegraded": false,
+        "SpareCapacityWornOut": false
+      },
+      "MaxQueueSize": 1
+    },
+
+    "Links": {
+        "NetworkDeviceFunctions": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a1/NetworkDeviceFunctions/11100"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a1/NetworkDeviceFunctions/11101"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a2/NetworkDeviceFunctions/11100"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a2/NetworkDeviceFunctions/11101"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/Controllers/NVMeAdminController",
+    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}

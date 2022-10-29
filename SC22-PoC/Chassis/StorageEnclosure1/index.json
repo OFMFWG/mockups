@@ -1,0 +1,36 @@
+{
+    "@odata.type": "#Chassis.v1_20_0.Chassis",
+    "Id": "1",
+    "Name": "Storage System Chassis",
+    "ChassisType": "RackMount",
+    "Manufacturer": "ManufacturerName",
+    "Model": "ProductModelName",
+
+    "SerialNumber": "XXXYYY",
+    "PartNumber": "N/A",
+    "AssetTag": "CustomerWritableThingy",
+     "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Thermal"
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Power"
+    },
+    "Drives": {
+        "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives"
+    },
+    "Links": {
+        "Storage": [
+            {
+                "@odata.id": "/redfish/v1/Storage/NVMeArray"
+            }
+        ],
+        "Oem": {}
+    },
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1",
+    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}

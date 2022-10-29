@@ -1,0 +1,50 @@
+{
+    "@odata.type": "#Volume.v1_8_0.Volume",
+    "Id": "Namespace1",
+    "Name": "Namespace 1",
+    "Description": "Namespace 1 in Opaque Array",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "RAIDType": "RAID0",
+    "Identifiers": [
+        {
+            "DurableNameFormat": "NAA",
+            "DurableName": "6545671545176100124407610013456D"
+        }
+    ],
+    "BlockSizeBytes": 512,
+    "Encrypted": false,
+    "DisplayName": "This is my user/client set friendly name.",
+    "RemainingCapacityPercent": 100,
+    "Capacity": {
+        "Data": {
+            "ConsumedBytes": 0,
+            "AllocatedBytes": 300067890136
+        }
+    },
+    "CapacitySources": [
+        {
+          "@odata.type": "#Capacity.v1_2_0.CapacitySource",
+          "Id": "Source1",
+          "Name": "Source1",
+          "ProvidedCapacity": {
+              "Data": {
+                  "AllocatedBytes": 300067890136
+              }
+          },
+          "ProvidingPools": {
+              "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace1/CapacitySources/Source1/ProvidingPools"
+          },
+          "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace1/CapacitySources/Source1"
+        }
+    ],
+    "Links": {
+        "OwningStorageResource": {
+            "@odata.id": "/redfish/v1/Storage/NVMeArray"
+        }
+    },
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace1",
+    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+}
