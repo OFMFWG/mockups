@@ -1,0 +1,24 @@
+{
+    "@odata.type": "#CXLLogicalDeviceCollection.CXLLogicalDeviceCollection",
+    "Name": "CXL Logical Device Collection",
+    "Members@odata.count": 5,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/2"
+        },
+        {   
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/FF"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices",
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}
