@@ -24,14 +24,16 @@
         },
         "PCIeFunctions": [
               {
-                  "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/PCIeFunctions/1"
+                  "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/PCIeFunctions/4"
               }
         ],
         "MemoryChunks": [
 
         ],
         "MemoryDomains": [
- 
+			{
+                "@odata.id": "/redfish/v1/Chassis/CXL3MLD/MemoryDomains/1"
+            }
         ],
         "Endpoints": [
             {

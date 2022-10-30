@@ -13,9 +13,7 @@
         "CXL"
     ],
     "MemoryMediaSources": [
-        {
-            "@odata.id": "/redfish/v1/Chassis/CXL3/MemoryDomains/1/MemoryChunks/1"
-        }
+        "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains/CXL/MemoryChunks/1"
     ],
     "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL3",
     "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."

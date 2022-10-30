@@ -26,6 +26,6 @@
         ]
     },
     "Oem": {},
-    "@odata.id": "/redfish/v1/Chassis/CXL3MLDMLD/FabricAdapters/1",
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/FabricAdapters/1",
     "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
 }

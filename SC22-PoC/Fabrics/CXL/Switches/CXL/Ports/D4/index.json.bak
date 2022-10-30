@@ -1,0 +1,30 @@
+{
+    "@odata.type": "#Port.v1_7_0.Port",
+    "Id": "D2",
+    "Name": "CXL Port 8",
+    "Description": "CXL Downstream Port 4 in switch",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PortId": "8",
+    "PortProtocol": "CXL",
+    "CurrentProtocolVersion": "3.0",
+    "CapableProtocolVersions": [
+        "1.1", "2.0", "3.0"
+    ],
+    "PortType": "DownstreamPort",
+    "PortMedium": "Optical",
+    "CurrentSpeedGbps": 256,
+    "Width": 8,
+    "MaxSpeedGbps": 512,
+    "ActiveWidth": 16,
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "InterfaceEnabled": true,
+    "LinkNetworkTechnology": "PCIe",
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D4",
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

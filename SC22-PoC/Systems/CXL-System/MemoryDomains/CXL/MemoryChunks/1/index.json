@@ -12,25 +12,10 @@
     "AddressRangeOffsetMiB": 65536,
     "MediaLocation": "Mixed",
     "OperationalState": "Online",
-    "InterleaveSets": [
-        {
-            "Memory": {
-                "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL2"
-            }
-        },
+    "InterleaveSets": [        
         {
             "Memory": {
                 "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL3"
-            }
-        },
-        {
-            "Memory": {
-                "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/RCXL2"
-            }
-        },
-        {
-            "Memory": {
-                "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/RCXL3"
             }
         }
     ],

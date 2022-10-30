@@ -4,9 +4,9 @@
     "Members@odata.count": 1,
     "Members": [
         {
-            "@odata.id": "/redfish/v1/Chassis/PCXL3/PCIeDevices/1"
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1"
         }
     ],
-    "@odata.id": "/redfish/v1/Chassis/PCXL3/PCIeDevices",
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices",
     "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
 }

@@ -26,28 +26,9 @@
     "MemoryDomains": {
         "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains"
     },
-    "PCIeDevices": [
-        {
-            "@odata.id": "/redfish/v1/Chassis/CXL1/PCIeDevices/1"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/CXL2/PCIeDevices/1"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/CXL3/PCIeDevices/1"
-        }
-    ],
-    "PCIeFunctions": [
-        {
-            "@odata.id": "/redfish/v1/Chassis/CXL1/PCIeDevices/1/PCIeFunctions/1"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/CXL2/PCIeDevices/1/PCIeFunctions/1"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/CXL3/PCIeDevices/1/PCIeFunctions/1"
-        }
-    ],
+	"FabricAdapters": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System/FabricAdapters"
+    },
     "Links": {
         "Chassis": [
             {

@@ -1,9 +1,11 @@
 {
     "@odata.type": "#ZoneCollection.ZoneCollection",
     "Name": "CXL Fabric Zone Collection",
-    "Members@odata.count": 0,
+    "Members@odata.count": 1,
     "Members": [
-
+		{
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/1"
+        }
     ],
     "@odata.id": "/redfish/v1/Fabrics/CXL/Zones",
     "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."

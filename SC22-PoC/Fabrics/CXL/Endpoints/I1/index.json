@@ -2,11 +2,11 @@
     "@odata.type": "#Endpoint.v1_7_0.Endpoint",
     "Id": "I1",
     "Name": "CXL-System Initiator",
-    "Description": "CXL-System Initiator Endpoint for remote Type 1 CXL device ",
+    "Description": "CXL-System Initiator Endpoint for host",
     "EndpointProtocol": "CXL",
     "ConnectedEntities": [
         {
-            "EntityType": "Processor",
+            "EntityType": "FabricAdapter",
             "EntityRole": "Initiator",
             "Identifiers": [
                 {
@@ -15,14 +15,14 @@
                 }
             ],
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Systems/CXL-System/Processors/CPU"
+                "@odata.id": "/redfish/v1/Systems/CXL-System/FabricAdapters/1"
             }
         }
     ],
     "Links": {
         "Ports": [
             {
-                "@odata.id": "/redfish/v1/Systems/CXL-System/Processors/CPU/Ports/1"
+                "@odata.id": "/redfish/v1/Systems/CXL-System/FabricAdapters/1/Ports/1"
             }
         ],
         "Zones": [

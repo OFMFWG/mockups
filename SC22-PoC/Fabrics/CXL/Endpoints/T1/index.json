@@ -5,12 +5,29 @@
     "Description": "CXL Device Type 3 MLD target endpoint",
     "EndpointProtocol": "CXL",
     "ConnectedEntities": [
-
+		{
+            "EntityType": "FabricAdapter",
+            "EntityRole": "Target",
+            "Identifiers": [
+                {
+                    "DurableName": "86D53A7B-D29A-3287-BA23-EF43A27BC6B9",
+                    "DurableNameFormat": "UUID"
+                }
+            ],
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Systems/CXL3MLD/FabricAdapters/1"
+            }
+        }
     ],
     "Links": {
         "Ports": [
             {
                 "@odata.id": "/redfish/v1/Chassis/CXL3MLD/FabricAdapters/1/Ports/1"
+            }
+        ],
+		"Zones": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/1"
             }
         ]
     },

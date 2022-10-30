@@ -1,14 +1,14 @@
 {
     "@odata.type": "#Port.v1_7_0.Port",
     "Id": "D1",
-    "Name": "CXL Port 2",
+    "Name": "CXL Port 5",
     "Description": "CXL Downstream Port 1 in switch",
     "Status": {
         "State": "Enabled",
         "Health": "OK",
         "HealthRollup": "OK"
     },
-    "PortId": "2",
+    "PortId": "5",
     "PortProtocol": "CXL",
     "CurrentProtocolVersion": "3.0",
     "CapableProtocolVersions": [
@@ -30,7 +30,7 @@
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
             }
         ],
-        "ConnectedPorts": [
+		"ConnectedPorts": [
             {
                 "@odata.id": "/redfish/v1/Chassis/CXL3MLD/FabricAdapters/1/Ports/1"
             }

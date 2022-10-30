@@ -1,20 +1,32 @@
 {
 	"@odata.type": "#PortCollection.PortCollection",
     "Name": "CXL Port Collection",
-	"Members@odata.count": 4,
+	"Members@odata.count": 8,
 	"Members": [
         {
             "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/U1"
         },
-				{
-            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D1"
-				},
-				{
-            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D2"
-				},
-				{
-            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D3"
-        }
+		{
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/U2"
+        },
+		{
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/U3"
+        },
+		{
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/U4"
+        },
+		{
+			"@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D1"
+		},
+		{
+			"@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D2"
+		},
+		{
+			"@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D3"
+		},
+		{
+			"@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports/D4"
+		}
     ],
     "Oem": {},
 		"@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL/Ports",

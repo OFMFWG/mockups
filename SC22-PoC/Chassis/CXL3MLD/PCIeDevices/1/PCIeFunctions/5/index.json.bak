@@ -33,5 +33,5 @@
     },
     "Oem": {},
     "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/PCIeFunctions/FF",
-    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+    "@Redfish.Copyright": "Copyright 2014-2021 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
 }

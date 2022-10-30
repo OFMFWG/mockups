@@ -24,14 +24,16 @@
         },
         "PCIeFunctions": [
               {
-                  "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/PCIeFunctions/1"
+                  "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/PCIeFunctions/3"
               }
         ],
         "MemoryChunks": [
 
         ],
         "MemoryDomains": [
- 
+			{
+                "@odata.id": "/redfish/v1/Chassis/CXL3MLD/MemoryDomains/1"
+            }
         ],
         "Endpoints": [
             {
@@ -41,6 +43,6 @@
         "Oem": {}
     },
     "Oem": {},
-    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/4",
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/3",
     "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
 }

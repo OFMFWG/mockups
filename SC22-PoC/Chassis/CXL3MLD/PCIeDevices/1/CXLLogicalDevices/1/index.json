@@ -28,9 +28,7 @@
               }
         ],
         "MemoryChunks": [
-            {
-                "@odata.id": "/redfish/v1/Chassis/CXL3MLD/MemoryDomains/1/MemoryChunks/1"
-            }
+            
         ],
         "MemoryDomains": [
             {
@@ -45,6 +43,6 @@
         "Oem": {}
     },
     "Oem": {},
-    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/0",
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/1",
     "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
 }

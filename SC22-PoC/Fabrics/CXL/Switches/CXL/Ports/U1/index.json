@@ -29,17 +29,11 @@
         "AssociatedEndpoints": [
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I1"
-            },
-			{
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I2"
-            },
-			{
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I3"
             }
         ],
-        "ConnectedPorts": [
+		"ConnectedPorts": [
             {
-                "@odata.id": "/redfish/v1/Systems/CXL-System/Processors/CPU/Ports/1"
+                "@odata.id": "/redfish/v1/Systems/CXL-System/FabricAdapters/1/Ports/1"
             }
         ]
     },

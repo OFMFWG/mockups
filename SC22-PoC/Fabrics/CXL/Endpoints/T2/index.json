@@ -5,7 +5,19 @@
     "Description": "CXL Device Type 2 target endpoint",
     "EndpointProtocol": "CXL",
     "ConnectedEntities": [
-
+		{
+            "EntityType": "FabricAdapter",
+            "EntityRole": "Target",
+            "Identifiers": [
+                {
+                    "DurableName": "86D53A7B-D29A-3287-BA23-EF43A27BC6B9",
+                    "DurableNameFormat": "UUID"
+                }
+            ],
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Systems/PCXL3/FabricAdapters/1"
+            }
+        }
     ],
     "Links": {
         "Ports": [

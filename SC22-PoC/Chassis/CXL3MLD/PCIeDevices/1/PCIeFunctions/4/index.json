@@ -25,7 +25,7 @@
         	}
         ],
         "CXLLogicalDevice": {
-            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/1"
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/4"
         },
         "PCIeDevice": {
             "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1"

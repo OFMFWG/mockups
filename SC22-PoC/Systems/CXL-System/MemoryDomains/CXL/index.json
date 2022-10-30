@@ -2,7 +2,7 @@
     "@odata.type": "#MemoryDomain.v1_4_0.MemoryDomain",
     "Id": "CXL",
     "Name": "CXL Memory Domain",
-    "Description": "Local and Remote CXL Memory Domain",
+    "Description": "Local CXL Memory Domain",
     "Status": {
         "State": "Enabled",
         "Health": "OK",
@@ -18,16 +18,7 @@
         {
             "MemorySet": [
                 {
-                    "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL2"
-                },
-                {
                     "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL3"
-                },
-                {
-                    "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/RCXL2"
-                },
-                {
-                    "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/RCXL3"
                 }
             ]
         }

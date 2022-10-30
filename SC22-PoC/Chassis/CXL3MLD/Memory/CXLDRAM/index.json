@@ -17,6 +17,6 @@
         "HealthRollup": "OK"
     },
     "Oem": {},
-    "@odata.id": "/redfish/v1/Chassis/PCXL3/Memory/CXLDRAM",
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/Memory/CXLDRAM",
     "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
 }
