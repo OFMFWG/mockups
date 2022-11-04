@@ -31,5 +31,5 @@
         ]
     },
     "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH9ZH5P",
-    "@Redfish.Copyright": "Copyright 2015-2022 SNIA. All rights reserved."
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
 }
