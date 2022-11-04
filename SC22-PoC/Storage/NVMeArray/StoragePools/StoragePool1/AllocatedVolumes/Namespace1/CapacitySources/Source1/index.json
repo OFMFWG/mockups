@@ -1,0 +1,15 @@
+{
+    "@odata.type": "#Capacity.v1_2_0.CapacitySource",
+    "Id": "Source1",
+    "Name": "Source1",
+    "ProvidedCapacity": {
+        "Data": {
+            "AllocatedBytes": 300067890136
+        }
+    },
+    "ProvidingPools": {
+        "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace1/CapacitySources/Source1/ProvidingPools"
+    },
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace1/CapacitySources/Source1",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

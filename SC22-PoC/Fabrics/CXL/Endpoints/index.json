@@ -1,0 +1,18 @@
+{
+    "@odata.type": "#EndpointCollection.EndpointCollection",
+    "Name": "CXL Endpoint Collection",
+    "Members@odata.count": 3,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T2"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

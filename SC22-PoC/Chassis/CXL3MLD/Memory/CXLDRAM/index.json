@@ -1,0 +1,22 @@
+{
+    "@odata.type": "#Memory.v1_15_0.Memory",
+    "Id": "CXLDRAM",
+    "ModuleProductID": "",
+    "ModuleManufacturerID": "",
+    "SerialNumber": "",
+    "Name": "CXL Volatile Memory",
+    "MemoryType": "DRAM",
+    "MemoryMedia": [
+        "DRAM"
+    ],
+    "CapacityMiB": 65536,
+    "OperatingSpeedMhz": 3200,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled",
+        "HealthRollup": "OK"
+    },
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/Memory/CXLDRAM",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

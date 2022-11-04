@@ -1,0 +1,25 @@
+{
+    "@odata.type": "#Processor.v1_15_0.Processor",
+    "Id": "CPU",
+    "Name": "CPU",
+    "Description": "Host CPU",
+    "ProcessorType": "CPU",
+    "ProcessorArchitecture": "x86",
+    "InstructionSet": "x86-64",
+    "Manufacturer": "Intel(R) Corporation",
+    "UUID": "86D53A7B-D29A-3287-BA23-EF43A27BC6B9",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "Links": {
+          "Memory": [
+              {
+                  "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL3"
+              }
+          ]
+    },
+    "@odata.id": "/redfish/v1/Systems/CXL-System/Processors/CPU",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

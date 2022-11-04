@@ -1,0 +1,12 @@
+{
+    "@odata.type": "#StoragePoolCollection.StoragePoolCollection",
+    "Name": "Storage Pool Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace1/CapacitySources/Source1/ProvidingPools",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

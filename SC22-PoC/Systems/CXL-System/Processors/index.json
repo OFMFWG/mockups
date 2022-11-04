@@ -1,0 +1,12 @@
+{
+    "@odata.type": "#ProcessorCollection.ProcessorCollection",
+    "Name": "Processors Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/CXL-System/Processors/CPU"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Systems/CXL-System/Processors",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

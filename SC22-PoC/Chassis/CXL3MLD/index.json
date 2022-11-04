@@ -1,0 +1,27 @@
+{
+    "@odata.type": "#Chassis.v1_20_0.Chassis",
+    "Id": "CXL3MLD",
+    "Name": "CXL Device Type 3 MLD chassis",
+    "PowerState": "On",
+    "ChassisType": "Module",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices"
+    },
+    "FabricAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/CXL3MLD/FabricAdapters"
+    },
+    "Memory": {
+        "@odata.id": "/redfish/v1/Chassis/CXL3MLD/Memory"
+    },
+    "MemoryDomains": {
+        "@odata.id": "/redfish/v1/Chassis/CXL3MLD/MemoryDomains"
+    },
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

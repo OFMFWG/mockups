@@ -1,0 +1,42 @@
+{
+    "@odata.type": "#ComputerSystem.v1_16_0.ComputerSystem",
+    "Id": "CXL-System",
+    "Name": "CXL System",
+    "Description": "CXL System supporting local and remote CXL devices",
+    "SystemType": "Physical",
+    "UUID": "68D5E212-165B-4CA0-909B-C86B9CEE0112",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PowerState": "On",
+    "ProcessorSummary": {
+         "Count": 3
+    },
+    "MemorySummary": {
+        "TotalSystemMemoryGiB": 36
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System/Processors"
+    },
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System/Memory"
+    },
+    "MemoryDomains": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains"
+    },
+	"FabricAdapters": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System/FabricAdapters"
+    },
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/CXL-Chassis"
+            }
+        ]
+    },
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Systems/CXL-System",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}
