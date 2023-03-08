@@ -1,0 +1,24 @@
+{
+    "@odata.type": "#AggregationService.v1_0_1.AggregationService",
+    "Id": "AggregationService",
+    "Name": "Aggregation Service",
+    "Description": "Open Fabric Manager Aggregation Service",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "ServiceEnabled": true,
+
+    "Aggregates": {
+        "@odata.id": "/redfish/v1/AggregationService/Aggregates"
+    },
+    "AggregationSources": {
+        "@odata.id": "/redfish/v1/AggregationService/AggregationSources"
+    },
+    "ConnectionMethods": {
+        "@odata.id": "/redfish/v1/AggregationService/ConnectionMethods"
+    },
+
+    "@odata.id": "/redfish/v1/AggregationService",
+    "@Redfish.Copyright": "Copyright 2023 OpenFabrics Alliance. All rights reserved."
+}

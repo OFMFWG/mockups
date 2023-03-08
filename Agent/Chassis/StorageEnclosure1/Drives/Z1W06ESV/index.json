@@ -1,0 +1,28 @@
+{
+    "@odata.type": "#Drive.v1_15_0.Drive",
+    "Id": "Z1W06ESV",
+    "Name": "Drive 10",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "StatusIndicator": "OK",
+    "CapacityBytes": 1000201246474,
+    "FailurePredicted": false,
+    "Protocol": "SATA",
+    "MediaType": "HDD",
+    "Manufacturer": "HDD-Company",
+    "SerialNumber": "Z1W06ESV",
+    "PartNumber": "ST1000NM00339ZM",
+    "Identifiers": [
+        {
+            "DurableNameFormat": "NAA",
+            "DurableName": "300062B202B21845"
+        }
+    ],
+    "BlockSizeBytes": 512,
+    "NegotiatedSpeedGbs": 6,
+    "Links": {},
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W06ESV",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

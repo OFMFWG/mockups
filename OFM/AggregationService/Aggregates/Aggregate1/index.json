@@ -1,0 +1,35 @@
+{
+    "@odata.type": "#Aggregate.v1_0_1.Aggregate",
+    "Id": "Aggregate1",
+    "Name": "Aggregate One",
+    "ElementsCount": 2,
+    "Elements": [
+        {
+            "@odata.id": "agent1.infra.contoso.com/redfish/v1"
+        },
+        {
+            "@odata.id": "agent2.infra.contoso.com/redfish/v1"
+        }
+    ],
+    "Actions": {
+        "#Aggregate.Reset": {
+            "target": "/redfish/v1/AggregationService/Aggregates/Aggregate1/Actions/Aggregate.Reset",
+            "@Redfish.ActionInfo": "/redfish/v1/AggregationService/Aggregates/Aggregate1/ResetActionInfo"
+        },
+        "#Aggregate.SetDefaultBootOrder": {
+            "target": "/redfish/v1/AggregationService/Aggregates/Aggregate1/Actions/Aggregate.SetDefaultBootOrder",
+            "@Redfish.ActionInfo": "/redfish/v1/AggregationService/Aggregates/Aggregate1/SetDefaultBootOrderActionInfo"
+        },
+        "#Aggregate.AddElements": {
+            "target": "/redfish/v1/AggregationService/Aggregates/Aggregate1/Actions/Aggregate.AddElements",
+            "@Redfish.ActionInfo": "/redfish/v1/AggregationService/Aggregates/Aggregate1/AddElementsActionInfo"
+        },
+        "#Aggregate.RemoveElements": {
+            "target": "/redfish/v1/AggregationService/Aggregates/Aggregate1/Actions/Aggregate.RemoveElements",
+            "@Redfish.ActionInfo": "/redfish/v1/AggregationService/Aggregates/Aggregate1/RemoveElementsActionInfo"
+        }
+    },
+    "@odata.id": "/redfish/v1/AggregationService/Aggregates/Aggregate1",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}
+

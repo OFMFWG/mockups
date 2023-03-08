@@ -1,0 +1,29 @@
+{
+    "@odata.type": "#MemoryDomain.v1_4_0.MemoryDomain",
+    "Id": "CXL",
+    "Name": "CXL Memory Domain",
+    "Description": "Local CXL Memory Domain",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "MemoryChunks": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains/CXL/MemoryChunks"
+    },
+    "AllowsMemoryChunkCreation": true,
+    "MinMemoryChunkSizeMiB": 64,
+    "MemoryChunkIncrementMiB": 64,
+    "InterleavableMemorySets": [
+        {
+            "MemorySet": [
+                {
+                    "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL3"
+                }
+            ]
+        }
+    ],
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains/CXL",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

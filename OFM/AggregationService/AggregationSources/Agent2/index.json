@@ -1,0 +1,22 @@
+{
+    "@odata.type": "#AggregationSource.v1_3_1.AggregationSource",
+    "Id": "Agent2",
+    "Name": "Agent Two",
+    "HostName": "https://Agent2.contoso.com/redfish/v1",
+    "UserName": "root",
+    "Password": null,
+    "Links": {
+        "ConnectionMethod": {
+            "@odata.id": "/redfish/v1/AggregationService/ConnectionMethods/ConnectionMethod1"
+        },
+        "ResourcesAccessed": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1"
+            }
+        ]
+    },
+    "Actions": {},
+    "@odata.id": "/redfish/v1/AggregationService/AggregationSources/Agent2",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}
+~ 

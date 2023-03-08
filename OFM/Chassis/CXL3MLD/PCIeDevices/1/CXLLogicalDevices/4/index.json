@@ -1,0 +1,48 @@
+{
+    "@odata.type": "#CXLLogicalDevice.v1_0_0.CXLLogicalDevice",
+    "Id": "1",
+    "Name": "CXL Logical Device Type 3",
+    "Description": "CXL Logical Device Type 3 accessible through CXL fabric",
+    "Status": {
+		"State": "Enabled",
+		"Health": "OK",
+		"HealthRollup": "OK"
+	},
+    "Identifiers": [
+        {
+            "DurableName": "4C-1D-96-FF-FE-DD-D8-35:4",
+            "DurableNameFormat": "GCXLID"
+        }
+    ],
+    "CXLSemanticsSupported": [
+        "CXLio",
+        "CXLmem"
+    ],
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1"
+        },
+        "PCIeFunctions": [
+              {
+                  "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/PCIeFunctions/4"
+              }
+        ],
+        "MemoryChunks": [
+
+        ],
+        "MemoryDomains": [
+			{
+                "@odata.id": "/redfish/v1/Chassis/CXL3MLD/MemoryDomains/1"
+            }
+        ],
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
+            }
+        ],
+        "Oem": {}
+    },
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Chassis/CXL3MLD/PCIeDevices/1/CXLLogicalDevices/4",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

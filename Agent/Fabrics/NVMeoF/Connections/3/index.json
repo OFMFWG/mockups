@@ -1,0 +1,40 @@
+{
+    "@odata.type": "#Connection.v1_0_0.Connection",
+    "@Redfish.ReleaseStatus": "WorkInProgress",
+    "Id": "3",
+    "Name": "Connection zone 1",
+    "Description": "Connection info for zone 1",
+    "ConnectionType": "Storage",
+    "VolumeInfo": [
+        {
+            "AccessCapabilities": [
+                "Read"
+            ],
+            "Volume": {
+                "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace1"
+            }
+        },
+        {
+            "AccessCapabilities": [
+                "Read"
+            ],
+            "Volume": {
+                "@odata.id": "/redfish/v1/Storage/NVMeArray/StoragePools/StoragePool1/AllocatedVolumes/Namespace2"
+            }
+        }
+    ],
+    "Links": {
+        "InitiatorEndpointGroups": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/NVMeoF/EndpointGroups/1"
+            }
+        ],
+        "TargetEndpointGroups": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/NVMeoF/EndpointGroups/TargetEPs"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/NVMeoF/Connections/3",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

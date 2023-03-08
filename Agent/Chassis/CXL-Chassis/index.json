@@ -1,0 +1,21 @@
+{
+    "@odata.type": "#Chassis.v1_21_0.Chassis",
+    "Id": "CXL-Chassis",
+    "Name": "CXL Computer System chassis",
+    "PowerState": "On",
+    "ChassisType": "Drawer",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id" : "/redfish/v1/Systems/CXL-System"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Chassis/CXL-Chassis",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

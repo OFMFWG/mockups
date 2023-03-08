@@ -1,0 +1,15 @@
+{
+    "@odata.type": "#PortCollection.PortCollection",
+    "Name": "Port Collection",
+    "Members@odata.count": 2,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a1/Ports/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a1/Ports/2"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a1/Ports",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

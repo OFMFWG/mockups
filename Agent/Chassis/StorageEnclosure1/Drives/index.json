@@ -1,0 +1,57 @@
+{
+    "@odata.type": "#DriveCollection.DriveCollection",
+    "Name": "Drives",
+    "Members@odata.count": 16,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH8N20R"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH8S1JR"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH9AWMU"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0TH9ZH5P"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THEZDAU"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THGR0KP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THGXLUP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/0THGXPBP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W1LGHQ"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W2QYB6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W4GCER"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W06ESV"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W06EX4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W06TTC"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W127TV"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives/Z1W0181K"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/Drives",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

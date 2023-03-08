@@ -1,0 +1,25 @@
+{
+    "@odata.type": "#MemoryChunks.v1_5_0.MemoryChunks",
+    "Id": "1",
+    "Name": "Memory Chunk 1",
+    "Description": "All CXL Memory chunk",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "MemoryChunkSizeMiB": 16384,
+    "AddressRangeType": "Volatile",
+    "AddressRangeOffsetMiB": 65536,
+    "MediaLocation": "Mixed",
+    "OperationalState": "Online",
+    "InterleaveSets": [        
+        {
+            "Memory": {
+                "@odata.id": "/redfish/v1/Systems/CXL-System/Memory/CXL3"
+            }
+        }
+    ],
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Systems/CXL-System/MemoryDomains/CXL/MemoryChunks/1",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

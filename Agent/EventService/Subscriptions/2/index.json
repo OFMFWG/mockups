@@ -1,0 +1,13 @@
+{
+    "@odata.type": "#EventDestination.v1_13_0.EventDestination",
+    "Id": "2",
+    "Name": "EventSubscription 2",
+    "Context": "SSE Stream for client at <someip>",
+    "Protocol": "Redfish",
+    "SubscriptionType": "SSE",
+    "Status": {
+        "State": "Enabled"
+    },
+    "@odata.id": "/redfish/v1/EventService/Subscriptions/2",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

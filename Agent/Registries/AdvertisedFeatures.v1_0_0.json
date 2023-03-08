@@ -1,0 +1,40 @@
+{
+  "@odata.type": "#FeaturesRegistry.v1_1_1.FeaturesRegistry",
+  "Id": "AdvertisedFeatures.v1_0_0",
+  "Name": "Global Swordfish Features Registry",
+  "Language": "en",
+  "RegistryPrefix": "SwordfishFeaturesRegistry",
+  "RegistryVersion": "1.3.0",
+  "OwningEntity": "SNIA",
+  "Features": [{
+      "FeatureName": "SNIA.Swordfish.Discovery",
+      "Description": "Supports discovery of resources in a Swordfish system.",
+      "Version": "1.1.2",
+      "CorrespondingProfileDefinition": "SwordfishDiscovery.json"
+    },
+    {
+      "FeatureName": "SNIA.Swordfish.Block.Provisioning",
+      "Description": "Supports the Block Provisioning Feature.",
+      "Version": "1.2.0",
+      "CorrespondingProfileDefinition": "SwordfishBlockProvisioning.json"
+    },
+    {
+      "FeatureName": "SNIA.Swordfish.FabricAccessRightsforEthernet",
+      "Description": "Supports the Swordfish Fabric Access Rights for Ethernet Feature.",
+      "Version": "1.0.0",
+      "CorrespondingProfileDefinition": "SwordfishFabricAccessRightsforEthernet.json"
+    },
+    {
+      "FeatureName": "SNIA.Swordfish.NVMeFrontEnd",
+      "Description": "Supports requirements for Swordfish implementations with NVMe front-end interfaces.",
+      "Version": "1.1.0",
+      "CorrespondingProfileDefinition": "SwordfishNVMeFrontEnd.json"
+    },
+    {
+      "FeatureName": "SNIA.Swordfish.NVMeoF",
+      "Description": "Supports the NVMe over Fabrics set.",
+      "Version": "1.0.0",
+      "CorrespondingProfileDefinition": "SwordfishNVMeoF.json"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "@odata.type": "#ConnectionMethodCollection.ConnectionMethodCollection",
+    "Name": "Connection Method Collection",
+    "Members@odata.count": 3,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/AggregationService/ConnectionMethods/ConnectionMethod1"
+        },
+        {
+            "@odata.id": "/redfish/v1/AggregationService/ConnectionMethods/ConnectionMethod2"
+        },
+        {
+            "@odata.id": "/redfish/v1/AggregationService/ConnectionMethods/ConnectionMethod3"
+        }
+    ],
+    "@odata.id": "/redfish/v1/AggregationService/ConnectionMethods",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}  

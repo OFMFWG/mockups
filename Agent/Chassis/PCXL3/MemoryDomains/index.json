@@ -1,0 +1,12 @@
+{
+    "@odata.type": "#MemoryDomainCollection.MemoryDomainCollection",
+    "Name": "Memory Domain Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PCXL3/MemoryDomains/1"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/PCXL3/MemoryDomains",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

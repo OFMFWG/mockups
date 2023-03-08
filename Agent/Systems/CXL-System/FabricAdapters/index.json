@@ -1,0 +1,12 @@
+{
+    "@odata.type": "#FabricAdapterCollection.FabricAdapterCollection",
+    "Name": "Fabric Adapter Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/CXL-System/FabricAdapters/1"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Systems/CXL-System/FabricAdapters",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}

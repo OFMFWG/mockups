@@ -1,0 +1,14 @@
+{
+    "@odata.type": "#EthernetInterfaceCollection.EthernetInterfaceCollection",
+    "Name": "Ethernet  Interface Collection",
+    "Description": "Simple Network Collection",
+    "Members@odata.count": 2,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a1/NetworkDeviceFunctions/11101/EthernetInterfaces/1"
+        }
+    ],
+    "Oem": {},
+    "@odata.id": "/redfish/v1/Chassis/StorageEnclosure1/NetworkAdapters/8fd725a1/NetworkDeviceFunctions/11101/EthernetInterfaces",
+    "@Redfish.Copyright": "Copyright 2022 OpenFabrics Alliance. All rights reserved."
+}
