@@ -15,7 +15,7 @@
                 }
             ],
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Systems/PCXL3/FabricAdapters/1"
+                "@odata.id": "/redfish/v1/Chassis/PCXL3/FabricAdapters/1"
             }
         }
     ],
