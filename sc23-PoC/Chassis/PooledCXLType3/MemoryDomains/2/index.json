@@ -1,0 +1,46 @@
+{
+    "@odata.type": "#MemoryDomain.v1_5_0.MemoryDomain",
+    "Id": "2",
+    "Name": "CXL DIMM Memory Domain",
+    "Description": "DIMM Memory Domain accessible through CXL fabric",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "MemoryChunks": {
+        "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/2/MemoryChunks"
+    },
+    "AllowsMemoryChunkCreation": true,
+    "MinMemoryChunkSizeMiB": 64,
+    "MemoryChunkIncrementMiB": 64,
+    "MemorySizeMiB": 262144,
+    "InterleavableMemorySets": [
+        {
+            "MemorySet": [
+                {
+                    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/Memory/DRAM2"
+                }
+            ]
+        }
+    ],
+    "Links": {
+        "FabricAdapters": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/2"
+            }
+        ],
+        "CXLLogicalDevices": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/2/CXLLogicalDevices/1"
+            }
+        ],
+        "PCIeFunctions": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/2/PCIeFunctions/1"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/2",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

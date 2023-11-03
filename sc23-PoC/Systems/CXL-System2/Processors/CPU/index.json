@@ -1,0 +1,28 @@
+{
+    "@odata.type": "#Processor.v1_18_0.Processor",
+    "Id": "CPU",
+    "Name": "CPU with CXL ports",
+    "Description": "CPU with CXL ports",
+    "ProcessorType": "CPU",
+    "ProcessorArchitecture": "x86",
+    "InstructionSet": "x86-64",
+    "Manufacturer": "Intel(R) Corporation",
+    "UUID": "8c490432-426f-4840-85be-312c9a8c50f4",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "Ports": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors/CPU/Ports"
+    },
+    "Links": {
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I2"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors/CPU",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

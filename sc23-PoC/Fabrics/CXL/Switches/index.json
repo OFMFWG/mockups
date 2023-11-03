@@ -1,0 +1,15 @@
+{
+    "@odata.type": "#SwitchCollection.SwitchCollection",
+    "Name": "Switch Collection",
+    "Members@odata.count": 2,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

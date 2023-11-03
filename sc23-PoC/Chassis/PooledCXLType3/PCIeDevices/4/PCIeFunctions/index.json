@@ -1,0 +1,12 @@
+{
+    "@odata.type": "#PCIeFunctionCollection.PCIeFunctionCollection",
+    "Name": "PCIe Function Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/4/PCIeFunctions/1"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/4/PCIeFunctions",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

@@ -1,0 +1,21 @@
+{
+    "@odata.type": "#FabricAdapterCollection.FabricAdapterCollection",
+    "Name": "Fabric Adapter Collection",
+    "Members@odata.count": 4,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/4"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

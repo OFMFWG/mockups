@@ -1,0 +1,70 @@
+{
+    "@odata.type": "#Port.v1_10_0.Port",
+    "Id": "F4",
+    "Name": "CXL Port F4",
+    "Description": "CXL Fabric Port 4 in switch",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PortId": "8",
+    "RemotePortId": "4",
+    "PortProtocol": "CXL",
+    "CurrentProtocolVersion": "2.0",
+    "CapableProtocolVersions": [
+        "1.1",
+        "2.0"
+    ],
+    "PortType": "InterswitchPort",
+    "PortMedium": "Optical",
+    "CurrentSpeedGbps": 256,
+    "Width": 8,
+    "MaxSpeedGbps": 512,
+    "ActiveWidth": 16,
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "InterfaceEnabled": true,
+    "LinkNetworkTechnology": "PCIe",
+    "CXL": {
+        "CurrentPortConfigurationState": "FabricLink (reserved)",
+        "ConnectedDeviceMode": "PBR",
+        "ConnectedDeviceType": "CXLSwitch (reserved)",
+        "MaxLogicalDeviceCount": 8,
+        "TemporaryThroughputReductionEnabled": true,
+        "Congestion": {
+            "CongestionTelemetryEnabled": true,
+            "EgressModeratePercentage": 20,
+            "EgressSeverePercentage": 3,
+            "BackpressureSampleInterval": 3,
+            "MaxSustainedRequestCmpBias": 30,
+            "CompletionCollectionInterval": 2
+        },
+        "QoSTelemetryCapabilities": {
+            "EgressPortBackpressureSupported": true,
+            "TemporaryThroughputReductionSupported": true
+        }
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports/F4/Metrics"
+    },
+    "Actions": {
+        "#Port.ResetPPB": {
+            "target": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports/F4/Action/Port.Reset"
+        }
+    },
+    "Links": {
+        "AssociatedEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/2"
+            }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/F4"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports/F4",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

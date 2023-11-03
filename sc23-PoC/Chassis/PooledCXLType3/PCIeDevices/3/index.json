@@ -1,0 +1,40 @@
+{
+    "@odata.type": "#PCIeDevice.v1_12_0.PCIeDevice",
+    "Id": "3",
+    "Name": "CXL Device",
+    "Description": "CXL Physcial Device Type 3",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PCIeInterface": {
+        "PCIeType": "Gen5",
+        "MaxPCIeType": "Gen5",
+        "LanesInUse": 8,
+        "MaxLanes": 16
+    },
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/3/PCIeFunctions"
+    },
+    "CXLDevice": {
+        "DeviceType": "Type3",
+        "EgressPortCongestionSupport": true,
+        "ThroughputReductionSupport": true,
+        "MaxNumberLogicalDevices": 1,
+        "Timestamp": "2022-09-08T12:25:00-05:00"
+    },
+    "CXLLogicalDevices": {
+        "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/3/CXLLogicalDevices"
+    },
+    "StagedVersion": "1.4.2.0",
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/3",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

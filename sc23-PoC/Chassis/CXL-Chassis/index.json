@@ -1,0 +1,38 @@
+{
+    "@odata.type": "#Chassis.v1_24_0.Chassis",
+    "Id": "CXL-Chassis",
+    "Name": "CXL System chassis containing CXL cards",
+    "PowerState": "On",
+    "ChassisType": "Blade",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Chassis/CXL-Chassis/LogServices"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/CXL-Chassis/Thermal"
+    },
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/CXL-System"
+            }
+        ],
+        "Contains": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/CXLType1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/CXLType2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/CXLType3"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Chassis/CXL-Chassis",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}
