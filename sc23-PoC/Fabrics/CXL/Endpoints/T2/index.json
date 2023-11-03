@@ -6,16 +6,10 @@
     "EndpointProtocol": "CXL",
     "ConnectedEntities": [
         {
-            "EntityType": "CXLDevice",
+            "EntityType": "FabricBridge",
             "EntityRole": "Target",
-            "Identifiers": [
-                {
-                    "DurableName": "4C-1D-96-FF-FE-DD-D8-35:0001",
-                    "DurableNameFormat": "GCXLID"
-                }
-            ],
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/2/CXLLogicalDevices/1"
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/2"
             }
         },
         {

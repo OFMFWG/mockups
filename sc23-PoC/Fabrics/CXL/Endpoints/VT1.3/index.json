@@ -1,15 +1,21 @@
 {
     "@odata.type": "#Endpoint.v1_8_0.Endpoint",
-    "Id": "T1",
+    "Id": "VT1.3",
     "Name": "CXL Device Type 3 endpoint",
     "Description": "CXL Device Type 3 target endpoint",
     "EndpointProtocol": "CXL",
     "ConnectedEntities": [
         {
-            "EntityType": "FabricBridge",
+            "EntityType": "CXLDevice",
             "EntityRole": "Target",
+            "Identifiers": [
+                {
+                    "DurableName": "4C-1D-96-FF-FE-DD-D8-35:0003",
+                    "DurableNameFormat": "GCXLID"
+                }
+            ],
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/1"
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/1/CXLLogicalDevices/3"
             }
         }
     ],
@@ -25,6 +31,6 @@
             }
         ]
     },
-    "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1",
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.3",
     "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
 }
