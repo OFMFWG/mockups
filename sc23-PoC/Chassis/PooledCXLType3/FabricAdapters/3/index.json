@@ -23,6 +23,11 @@
             {
                 "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/3"
             }
+        ],
+        "PCIeDevices": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/3"
+            }
         ]
     },
     "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/3",
