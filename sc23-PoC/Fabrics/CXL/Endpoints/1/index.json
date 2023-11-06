@@ -9,7 +9,7 @@
             "EntityType": "Switch",
             "EntityRole": "Target",
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL"
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1"
             }
         }
     ],

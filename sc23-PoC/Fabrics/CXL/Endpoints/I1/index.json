@@ -2,7 +2,7 @@
     "@odata.type": "#Endpoint.v1_8_0.Endpoint",
     "Id": "I1",
     "Name": "CXL-System Initiator",
-    "Description": "CXL-System Initiator Endpoint for remote Type 1 CXL device ",
+    "Description": "CXL-System Initiator Endpoint for CXL processor ",
     "EndpointProtocol": "CXL",
     "ConnectedEntities": [
         {

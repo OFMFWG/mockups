@@ -22,7 +22,7 @@
     "Links": {
         "Ports": [
             {
-                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/1/Ports/5"
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/1/Ports/1"
             }
         ],
         "Zones": [
