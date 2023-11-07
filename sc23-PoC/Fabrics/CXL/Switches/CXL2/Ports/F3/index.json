@@ -55,6 +55,11 @@
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/2"
             }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports/F3"
+            }
         ]
     },
     "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/F3",
