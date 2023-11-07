@@ -14,10 +14,13 @@
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I3"
             },
             {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T3"
             },
             {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T3"
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T4"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/2"
             },
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/1"

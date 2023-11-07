@@ -11,13 +11,43 @@
     "Links": {
         "Endpoints": [
             {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I1"
+            },
+            {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I2"
             },
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
             },
             {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.3"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.4"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.5"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.6"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.7"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.8"
+            },
+            {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/2"
             },
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/1"
