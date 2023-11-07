@@ -18,18 +18,13 @@
     "Links": {
         "ComputerSystems": [
             {
-                "@odata.id": "/redfish/v1/Systems/CXL-System"
-            }
-        ],
-        "Contains": [
-            {
-                "@odata.id": "/redfish/v1/Chassis/CXLType1"
+                "@odata.id": "/redfish/v1/Systems/CXL-System1"
             },
             {
-                "@odata.id": "/redfish/v1/Chassis/CXLType2"
+                "@odata.id": "/redfish/v1/Systems/CXL-System2"
             },
             {
-                "@odata.id": "/redfish/v1/Chassis/CXLType3"
+                "@odata.id": "/redfish/v1/Systems/CXL-System3"
             }
         ]
     },
