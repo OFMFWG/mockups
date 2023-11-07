@@ -45,7 +45,7 @@
         ],
         "Endpoints": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.4"
             }
         ]
     },
