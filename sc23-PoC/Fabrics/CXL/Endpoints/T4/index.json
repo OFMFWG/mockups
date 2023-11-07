@@ -9,7 +9,7 @@
             "EntityType": "FabricBridge",
             "EntityRole": "Target",
             "EntityLink": {
-                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapter/4"
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/FabricAdapters/4"
             }
         },
         {

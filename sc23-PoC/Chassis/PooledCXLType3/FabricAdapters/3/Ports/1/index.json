@@ -34,7 +34,7 @@
         ],
         "ConnectedSwitches": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL3"
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2"
             }
         ],
         "ConnectedSwitchPorts": [
