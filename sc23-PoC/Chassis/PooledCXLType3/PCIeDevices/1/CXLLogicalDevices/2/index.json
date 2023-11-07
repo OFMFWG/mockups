@@ -41,11 +41,14 @@
         "MemoryDomains": [
             {
                 "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/9"
             }
         ],
         "Endpoints": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.2"
             }
         ]
     },
