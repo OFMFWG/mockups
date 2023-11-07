@@ -36,14 +36,14 @@
         "MemoryChunks": [
             {
                 "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/1/MemoryChunks/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/1/MemoryChunks/9"
             }
         ],
         "MemoryDomains": [
             {
                 "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/1"
-            },
-            {
-                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/9"
             }
         ],
         "Endpoints": [

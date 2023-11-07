@@ -4,7 +4,7 @@
     "Members@odata.count": 1,
     "Members": [
         {
-            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/1/MemoryChunks/1"
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/4/MemoryChunks/1"
         }
     ],
     "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/4/MemoryChunks",
