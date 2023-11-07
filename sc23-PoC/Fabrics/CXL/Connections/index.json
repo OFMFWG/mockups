@@ -1,13 +1,16 @@
 {
     "@odata.type": "#ConnectionCollection.ConnectionCollection",
     "Name": "CXL Connection Collection",
-    "Members@odata.count": 3,
+    "Members@odata.count": 4,
     "Members": [
         {
             "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/12"
         },
         {
             "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/25"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/26"
         },
         {
             "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/13"
