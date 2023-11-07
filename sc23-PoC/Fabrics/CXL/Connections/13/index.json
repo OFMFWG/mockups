@@ -16,7 +16,16 @@
                 "Write"
             ],
             "MemoryChunk": {
-                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/1/MemoryChunks/1"
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/3/MemoryChunks/1"
+            }
+        },
+        {
+            "AccessCapabilities": [
+                "Read",
+                "Write"
+            ],
+            "MemoryChunk": {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/4/MemoryChunks/1"
             }
         }
     ],
@@ -29,6 +38,9 @@
         "TargetEndpoints": [
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T3"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T4"
             }
         ]
     },

@@ -29,6 +29,11 @@
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/1"
             }
+        ],
+        "Connections": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/25"
+            }
         ]
     },
     "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I1",

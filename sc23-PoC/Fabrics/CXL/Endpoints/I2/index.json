@@ -33,6 +33,9 @@
         "Connections": [
             {
                 "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/12"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/25"
             }
         ]
     },
