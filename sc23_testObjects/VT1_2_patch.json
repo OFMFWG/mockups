@@ -32,7 +32,7 @@
         ],
         "Connections": [
             {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/26"
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/28"
             }
 		]
     },
