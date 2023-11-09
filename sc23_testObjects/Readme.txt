@@ -17,7 +17,7 @@
 #
 #	to create a new chunk in the MLD:
 #
-#		1)  post a new MemoryChunk to /Chassis/CXL/MemoryDomains/1/MemoryChunks/10 using file MD_4_MC_10_post.json
+#		1)  post a new MemoryChunk to /Chassis/CXL/MemoryDomains/1/MemoryChunks/10 using file MD_1_MC_10_post.json
 #				this will post the new MLD memory chunk #10, and link it to the two MLD LogicalDevices 1 and 2, 
 #				and to the related VT1.1 and VT1.2 virtual endpoints
 #
@@ -36,7 +36,7 @@
 #		4) post a new Connection 28 by sending a POST request to /Fabrics/CXL/Connections/28 with body of file C28_post.json
 #				this will post a new Connection that ties Initiator 2 to the VT1.2 virtual endpoint and the new Memory Chunk
 #				NOTE:  this connection only gives I2 (host 2) permission to access the new shared memory chunk!
-#		4) patch the Endpoint VT1.2 to update the Connection link by sending a PATCH request to /Fabrics/CXL/Endpoints/VT1.2 using VT1_2_patch.json
+#		5) patch the Endpoint VT1.2 to update the Connection link by sending a PATCH request to /Fabrics/CXL/Endpoints/VT1.2 using VT1_2_patch.json
 #
 
 #				NOTE:  We could have taken Host 1's access away hours ago
