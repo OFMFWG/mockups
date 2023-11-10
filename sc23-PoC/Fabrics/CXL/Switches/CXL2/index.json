@@ -1,0 +1,31 @@
+{
+    "@odata.type": "#Switch.v1_9_1.Switch",
+    "Id": "CXL2",
+    "Name": "CXL Expansion Switch",
+    "SwitchType": "CXL",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "UUID": "63399b2a-5d7c-4749-bae0-0e76e50893af",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports"
+    },
+    "CXL": {
+        "MaxVCSsSupported": 4,
+        "TotalNumbervPPBs": 4,
+        "VCS": {
+            "HDMDecoders": 12
+        }
+    },
+    "Links": {
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/2"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

@@ -1,0 +1,20 @@
+{
+    "@odata.type": "#Role.v1_3_1.Role",
+    "Id": "Administrator",
+    "Name": "User Role",
+    "Description": "Admin User Role",
+    "IsPredefined": true,
+    "AssignedPrivileges": [
+        "Login",
+        "ConfigureManager",
+        "ConfigureUsers",
+        "ConfigureSelf",
+        "ConfigureComponents"
+    ],
+    "OemPrivileges": [
+        "OemClearLog",
+        "OemPowerControl"
+    ],
+    "@odata.id": "/redfish/v1/AccountService/Roles/Administrator",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

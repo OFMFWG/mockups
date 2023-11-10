@@ -1,0 +1,59 @@
+{
+    "@odata.type": "#Zone.v1_6_2.Zone",
+    "Id": "2",
+    "Name": "CXL Zone 2",
+    "Description": "CXL Zone 2",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "ZoneType": "ZoneOfEndpoints",
+    "Links": {
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.3"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.4"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.5"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.6"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.7"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/VT1.8"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/1"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/2",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

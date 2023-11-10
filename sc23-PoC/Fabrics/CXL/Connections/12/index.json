@@ -1,0 +1,37 @@
+{
+    "@odata.type": "#Connection.v1_3_0.Connection",
+    "Id": "12",
+    "Name": "Connection 12",
+    "Description": "CXL Connection 12 Information",
+    "ConnectionType": "Memory",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "MemoryChunkInfo": [
+        {
+            "AccessCapabilities": [
+                "Read",
+                "Write"
+            ],
+            "MemoryChunk": {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/2/MemoryChunks/1"
+            }
+        }
+    ],
+    "Links": {
+        "InitiatorEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I2"
+            }
+        ],
+        "TargetEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T2"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/12",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

@@ -1,0 +1,44 @@
+{
+    "@odata.type": "#Endpoint.v1_8_0.Endpoint",
+    "Id": "I2",
+    "Name": "CXL-System Initiator",
+    "Description": "CXL-System Initiator Endpoint for CXL Processor",
+    "EndpointProtocol": "CXL",
+    "ConnectedEntities": [
+        {
+            "EntityType": "Processor",
+            "EntityRole": "Initiator",
+            "Identifiers": [
+                {
+                    "DurableName": "8c490432-426f-4840-85be-312c9a8c50f4",
+                    "DurableNameFormat": "UUID"
+                }
+            ],
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors/CPU"
+            }
+        }
+    ],
+    "Links": {
+        "Ports": [
+            {
+                "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors/CPU/Ports/1"
+            }
+        ],
+        "Zones": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/2"
+            }
+        ],
+        "Connections": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/12"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Connections/25"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I2",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

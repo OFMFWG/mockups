@@ -1,0 +1,22 @@
+{
+    "@odata.type": "#MemoryCollection.MemoryCollection",
+    "Name": "Memory Collection",
+    "Description": "Memory Collection",
+    "Members@odata.count": 4,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/Memory/DRAM1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/Memory/DRAM2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/Memory/DRAM3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/Memory/DRAM4"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/Memory",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

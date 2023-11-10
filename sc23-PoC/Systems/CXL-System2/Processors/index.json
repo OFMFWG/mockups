@@ -1,0 +1,12 @@
+{
+    "@odata.type": "#ProcessorCollection.ProcessorCollection",
+    "Name": "Processors Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors/CPU"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

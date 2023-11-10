@@ -1,0 +1,11 @@
+{
+    "@odata.type": "#PortMetrics.v1_5_0.PortMetrics",
+    "Id": "Metrics",
+    "Name": "CXL Port 4 Metrics",
+    "Description": "CXL Port 4 Metrics",
+    "CXL": {
+        "BackpressureAveragePercentage": 17
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/F4/Metrics",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

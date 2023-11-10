@@ -1,0 +1,33 @@
+{
+    "@odata.type": "#PortCollection.PortCollection",
+    "Name": "CXL Port Collection",
+    "Members@odata.count": 8,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/D1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/D2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/D3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/D4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/F1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/F2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/F3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports/F4"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL2/Ports",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

@@ -1,0 +1,12 @@
+{
+    "@odata.type": "#PortCollection.PortCollection",
+    "Name": "CXL Port Collection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors/CPU/Ports/1"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors/CPU/Ports",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

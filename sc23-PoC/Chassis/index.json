@@ -1,0 +1,15 @@
+{
+    "@odata.type": "#ChassisCollection.ChassisCollection",
+    "Name": "Chassis Collection",
+    "Members@odata.count": 2,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/CXL-Chassis"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

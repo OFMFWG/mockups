@@ -1,0 +1,30 @@
+{
+    "@odata.type": "#MemoryChunks.v1_6_0.MemoryChunks",
+    "Id": "1",
+    "Name": "Memory Chunk 1",
+    "Description": "Memory chunk accessible through CXL fabric",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+	"DisplayName" : "UUID8",
+    "MemoryChunkSizeMiB": 4096,
+    "AddressRangeType": "Volatile",
+    "AddressRangeOffsetMiB": 1024,
+    "MediaLocation": "Local",
+    "RequestedOperationalState": "Online",
+    "Links": {
+        "CXLLogicalDevices": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/3/CXLLogicalDevices/1"
+            }
+        ],
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/T3"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/MemoryDomains/3/MemoryChunks/1",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

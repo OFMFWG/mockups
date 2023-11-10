@@ -1,0 +1,31 @@
+{
+    "@odata.type": "#Switch.v1_9_1.Switch",
+    "Id": "CXL1",
+    "Name": "CXL Fabric Switch",
+    "SwitchType": "CXL",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "UUID": "9a0194a6-5057-4e27-8178-a11e8f80870c",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports"
+    },
+    "CXL": {
+        "MaxVCSsSupported": 4,
+        "TotalNumbervPPBs": 4,
+        "VCS": {
+            "HDMDecoders": 12
+        }
+    },
+    "Links": {
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/1"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

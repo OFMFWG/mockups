@@ -1,0 +1,29 @@
+{
+    "@odata.type": "#ComputerSystem.v1_21_0.ComputerSystem",
+    "Id": "CXL-System2",
+    "Name": "CXL System2",
+    "Description": "CXL System supporting remote CXL devices",
+    "SystemType": "Physical",
+    "UUID": "94f6b7cf-4754-469e-b697-a75fcf83cf8f",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 1
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/CXL-System2/Processors"
+    },
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/CXL-Chassis"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Systems/CXL-System2",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

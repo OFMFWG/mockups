@@ -1,0 +1,31 @@
+{
+    "@odata.type": "#Endpoint.v1_8_0.Endpoint",
+    "Id": "1",
+    "Name": "CXL Switch",
+    "Description": "CXL Switch endpoint",
+    "EndpointProtocol": "CXL",
+    "ConnectedEntities": [
+        {
+            "EntityType": "Switch",
+            "EntityRole": "Target",
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1"
+            }
+        }
+    ],
+    "Links": {
+        "Zones": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Zones/3"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/1",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

@@ -1,0 +1,62 @@
+{
+    "@odata.type": "#Port.v1_10_0.Port",
+    "Id": "U4",
+    "Name": "CXL Port U4",
+    "Description": "CXL Upstream Port 4 in switch",
+    "Status": {
+        "State": "Disabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "PortId": "4",
+    "PortProtocol": "CXL",
+    "CurrentProtocolVersion": "2.0",
+    "CapableProtocolVersions": [
+        "1.1",
+        "2.0"
+    ],
+    "PortType": "UpstreamPort",
+    "PortMedium": "Optical",
+    "Width": 8,
+    "MaxSpeedGbps": 512,
+    "LinkState": "Disabled",
+    "LinkStatus": "NoLink",
+    "InterfaceEnabled": false,
+    "LinkNetworkTechnology": "PCIe",
+    "CXL": {
+        "CurrentPortConfigurationState": "Disabled",
+        "ConnectedDeviceMode": "Disconnected",
+        "ConnectedDeviceType": "None",
+        "MaxLogicalDeviceCount": 8,
+        "TemporaryThroughputReductionEnabled": false,
+        "Congestion": {
+            "CongestionTelemetryEnabled": false,
+            "EgressModeratePercentage": 20,
+            "EgressSeverePercentage": 3,
+            "BackpressureSampleInterval": 3,
+            "MaxSustainedRequestCmpBias": 30,
+            "CompletionCollectionInterval": 2
+        },
+        "QoSTelemetryCapabilities": {
+            "EgressPortBackpressureSupported": true,
+            "TemporaryThroughputReductionSupported": true
+        }
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports/U4/Metrics"
+    },
+    "Actions": {
+        "#Port.ResetPPB": {
+            "target": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports/U4/Action/Port.Reset"
+        }
+    },
+    "Links": {
+        "AssociatedEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/1"
+            }
+        ]
+    },
+    "@odata.id": "/redfish/v1/Fabrics/CXL/Switches/CXL1/Ports/U4",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}

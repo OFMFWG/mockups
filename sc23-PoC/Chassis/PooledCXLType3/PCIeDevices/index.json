@@ -1,0 +1,21 @@
+{
+    "@odata.type": "#PCIeDeviceCollection.PCIeDeviceCollection",
+    "Name": "PCIe Device Collection",
+    "Members@odata.count": 4,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices/4"
+        }
+    ],
+    "@odata.id": "/redfish/v1/Chassis/PooledCXLType3/PCIeDevices",
+    "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
+}
