@@ -3,11 +3,9 @@
     "Name": "Computer System Collection",
     "Members@odata.count": 3,
     "Members": [
-        {
-            "@odata.id": "/redfish/v1/Systems/CXL-System1",
-            "@odata.id": "/redfish/v1/Systems/CXL-System2",
-            "@odata.id": "/redfish/v1/Systems/CXL-System3"
-        }
+        {"@odata.id": "/redfish/v1/Systems/CXL-System1"},
+        {"@odata.id": "/redfish/v1/Systems/CXL-System2"},
+        {"@odata.id": "/redfish/v1/Systems/CXL-System3"}
     ],
     "@odata.id": "/redfish/v1/Systems",
     "@Redfish.Copyright": "© Copyright 2023 Hewlett Packard Enterprise Development LP"
