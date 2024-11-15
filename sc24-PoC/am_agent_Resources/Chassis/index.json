@@ -4,13 +4,10 @@
     "@odata.type": "#ChassisCollection.ChassisCollection",
     "Members": [
         {
-            "@odata.id": "/redfish/v1/Chassis/CXL-Chassis"
-        },
-        {
             "@odata.id": "/redfish/v1/Chassis/PooledCXLType3"
         }
     ],
-    "Members@odata.count": 2,
+    "Members@odata.count": 1,
     "Name": "Chassis Collection",
     "Oem": {
         "Sunfish_RM": {

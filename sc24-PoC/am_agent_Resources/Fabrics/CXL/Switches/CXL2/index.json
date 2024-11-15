@@ -10,13 +10,6 @@
         }
     },
     "Id": "CXL2",
-    "Links": {
-        "Endpoints": [
-            {
-                "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/2"
-            }
-        ]
-    },
     "Name": "CXL Expansion Switch",
     "Oem": {
         "Sunfish_RM": {

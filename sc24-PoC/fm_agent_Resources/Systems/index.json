@@ -4,10 +4,16 @@
     "@odata.type": "#ComputerSystemCollection.ComputerSystemCollection",
     "Members": [
         {
+            "@odata.id": "/redfish/v1/Systems/CXL-System1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/CXL-System2"
+        },
+        {
             "@odata.id": "/redfish/v1/Systems/CXL-System3"
         }
     ],
-    "Members@odata.count": 1,
+    "Members@odata.count": 3,
     "Name": "Computer System Collection",
     "Oem": {
         "Sunfish_RM": {

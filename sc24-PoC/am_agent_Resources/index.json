@@ -11,9 +11,6 @@
     "Fabrics": {
         "@odata.id": "/redfish/v1/Fabrics"
     },
-    "Systems": {
-        "@odata.id": "/redfish/v1/Systems"
-    },
     "Id": "RootService",
     "Name": "Root Service",
     "Oem": {

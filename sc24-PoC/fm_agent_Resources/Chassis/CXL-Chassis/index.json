@@ -7,6 +7,12 @@
     "Links": {
         "ComputerSystems": [
             {
+                "@odata.id": "/redfish/v1/Systems/CXL-System1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/CXL-System2"
+            },
+            {
                 "@odata.id": "/redfish/v1/Systems/CXL-System3"
             }
         ]

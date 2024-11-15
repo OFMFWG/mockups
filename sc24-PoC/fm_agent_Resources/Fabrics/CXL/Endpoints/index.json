@@ -4,10 +4,16 @@
     "@odata.type": "#EndpointCollection.EndpointCollection",
     "Members": [
         {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I2"
+        },
+        {
             "@odata.id": "/redfish/v1/Fabrics/CXL/Endpoints/I3"
         }
     ],
-    "Members@odata.count": 1,
+    "Members@odata.count": 3,
     "Name": "CXL Endpoint Collection",
     "Oem": {
         "Sunfish_RM": {

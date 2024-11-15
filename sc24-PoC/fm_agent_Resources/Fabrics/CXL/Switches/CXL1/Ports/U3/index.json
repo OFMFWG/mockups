@@ -64,7 +64,7 @@
     "Oem": {
         "Sunfish_RM": {
             "@odata.type": "#SunfishExtensions.v1_0_0.ResourceExtensions",
-            "BoundaryComponent": "BoundaryPort"
+            "BoundaryComponent": "owned"
         }
     },
     "PortId": "3",
