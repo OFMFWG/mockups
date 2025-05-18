@@ -10,6 +10,9 @@
     "Chassis": {
         "@odata.id": "/redfish/v1/Chassis"
     },
+    "EventService": {
+        "@odata.id": "/redfish/v1/EventService"
+    },
     "Fabrics": {
         "@odata.id": "/redfish/v1/Fabrics"
     },

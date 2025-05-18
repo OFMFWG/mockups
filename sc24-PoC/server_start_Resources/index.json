@@ -10,6 +10,9 @@
     "CompositionService": {
         "@odata.id": "/redfish/v1/CompositionService"
     },
+    "EventService": {
+        "@odata.id": "/redfish/v1/EventService"
+    },
     "AggregationServiceService": {
         "@odata.id": "/redfish/v1/AggregationService"
 
