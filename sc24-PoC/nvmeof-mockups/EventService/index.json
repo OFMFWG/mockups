@@ -4,10 +4,18 @@
     "Description": "Open Fabric Manager Event Service",
     "Id": "EventService",
     "Name": "EventService Service",
-    "Oem": {},
+    "Oem": {
+        "Sunfish_RM": {
+            "@odata.type": "#SunfishExtensions.v1_0_0.ResourceExtensions",
+            "BoundaryComponent": "owned"
+        }
+    },
     "ServiceEnabled": true,
     "Status": {
         "Health": "OK",
         "State": "Enabled"
+    },
+    "Subscriptions": {
+        "@odata.id": "/redfish/v1/EventService/Subscriptions"
     }
 }
